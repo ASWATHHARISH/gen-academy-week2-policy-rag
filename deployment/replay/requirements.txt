@@ -1,0 +1,2 @@
+# Public saved-demo entrypoint only; no model or generation dependencies.
+streamlit==1.64.0

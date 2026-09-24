@@ -1,0 +1,22 @@
+{
+  "corpus_name": "GitLab public-policy demonstration corpus",
+  "publisher": "GitLab and handbook contributors",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_url": "https://handbook.gitlab.com/handbook/about/handbook-usage/#external-use-of-the-handbook",
+  "modifications": "Article bodies extracted, navigation removed, whitespace normalized, table headers repeated, and text split into heading-aware chunks. Adapted corpus content remains CC BY-SA 4.0.",
+  "sources": [
+    {"id": "time-off-types", "title": "Time Off Types", "url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/", "category": "HR"},
+    {"id": "anti-harassment", "title": "Anti-Harassment Policy", "url": "https://handbook.gitlab.com/handbook/people-group/anti-harassment/", "category": "HR"},
+    {"id": "general-onboarding", "title": "GitLab Onboarding", "url": "https://handbook.gitlab.com/handbook/people-group/general-onboarding/", "category": "HR"},
+    {"id": "password-standard", "title": "Password Standards", "url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/", "category": "IT/security"},
+    {"id": "data-classification", "title": "Data Classification Standard", "url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/data-classification-standard/", "category": "IT/security"},
+    {"id": "security-training", "title": "Security Awareness Training Standard", "url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/", "category": "IT/security"},
+    {"id": "physical-security", "title": "Physical Security Standard for Company Assets", "url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/", "category": "IT/security"},
+    {"id": "travel-expenses", "title": "Global Travel and Expense Policy", "url": "https://handbook.gitlab.com/handbook/finance/expenses/", "category": "Travel"},
+    {"id": "anti-corruption", "title": "Anti-Corruption Policy", "url": "https://handbook.gitlab.com/handbook/legal/anti-corruption-policy/", "category": "Compliance"},
+    {"id": "anti-retaliation", "title": "Anti-Retaliation Policy", "url": "https://handbook.gitlab.com/handbook/legal/anti-retaliation-policy/", "category": "Compliance"},
+    {"id": "gifts-contributions", "title": "Policies Related to Gifts and Contributions", "url": "https://handbook.gitlab.com/handbook/legal/policies/gifts-contributions/", "category": "Compliance"},
+    {"id": "ethics-compliance", "title": "Ethics and Compliance Program", "url": "https://handbook.gitlab.com/handbook/legal/ethics-compliance-program/", "category": "Compliance"}
+  ]
+}

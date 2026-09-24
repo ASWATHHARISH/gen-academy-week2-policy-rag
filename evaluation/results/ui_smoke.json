@@ -1,0 +1,245 @@
+{
+  "timestamp_utc": "2026-09-23T18:32:56.551260+00:00",
+  "method": "Real Streamlit AppTest with real graph, local retrieval and Gemini; not a browser screenshot.",
+  "note": "Separate live UI verification and explicit U1 manual retry; original 15-question evaluation unchanged.",
+  "api_attempts_before": 7,
+  "api_attempts_after": 9,
+  "rows": [
+    {
+      "id": "N1",
+      "question": "What is the minimum password length under GitLab Password Standards?",
+      "response": {
+        "query": "What is the minimum password length under GitLab Password Standards?",
+        "status": "answered",
+        "answer": "The minimum length for passwords under the GitLab Password Standards is 12 characters. [1](https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/#password-requirements)\n\nFor systems where a password can be configured, the minimum password length must also be set to 12 characters. [2](https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/#system-password-configuration-requirements)",
+        "citations": [
+          {
+            "number": 1,
+            "chunk_id": "c8ff082624d6f6dace46ce70",
+            "document_id": "password-standard",
+            "title": "Password Standards",
+            "url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/#password-requirements",
+            "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/",
+            "section": "GitLab Password Standards > Standard > Password Requirements",
+            "snapshot_date": "2026-09-23T18:17:48.513413+00:00",
+            "quotes": [
+              "- Minimum Length = 12 characters"
+            ]
+          },
+          {
+            "number": 2,
+            "chunk_id": "18ac31aa5e7cb159c55f4b1a",
+            "document_id": "password-standard",
+            "title": "Password Standards",
+            "url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/#system-password-configuration-requirements",
+            "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/",
+            "section": "GitLab Password Standards > Standard > System Password Configuration Requirements",
+            "snapshot_date": "2026-09-23T18:17:48.513413+00:00",
+            "quotes": [
+              "- For systems where a password can be configured the minimum password length needs to be set to 12 characters."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "id": "c8ff082624d6f6dace46ce70",
+            "text": "Document: Password Standards\nSection: GitLab Password Standards > Standard > Password Requirements\n\n- Minimum Length = 12 characters\n\n- Special Characters = No\n\n- Password Reuse = No\n\n- Password expiration = No\n\n- Multi-factor authentication (MFA) = Yes, whenever possible\n\nTo make a secure password you can remember, consider using a combination of 5 or more random words or generate in 1Password and store. This helps ensure the password isn’t easily guessable and will be unique across sites.",
+            "metadata": {
+              "chunk_index": 5,
+              "category": "IT/security",
+              "chunk_tokens": 384,
+              "title": "Password Standards",
+              "section": "GitLab Password Standards > Standard > Password Requirements",
+              "anchor": "password-requirements",
+              "license": "CC BY-SA 4.0",
+              "chunk_id": "c8ff082624d6f6dace46ce70",
+              "body_char_end": 395,
+              "overlap_tokens": 64,
+              "document_id": "password-standard",
+              "sha256": "b2d9c333416fcae5eb8fc962afaab5566ed8933c6cb75bec4052c77a0eb74fd6",
+              "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/#password-requirements",
+              "snapshot_date": "2026-09-23T18:17:48.513413+00:00",
+              "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/",
+              "body_char_start": 0,
+              "section_index": 5,
+              "token_count": 100
+            },
+            "score": 0.9051916599273682
+          },
+          {
+            "id": "18ac31aa5e7cb159c55f4b1a",
+            "text": "Document: Password Standards\nSection: GitLab Password Standards > Standard > System Password Configuration Requirements\n\n- For systems where a password can be configured the minimum password length needs to be set to 12 characters.\n\n- The use of special characters is not required or even recommended.\n\n- If a particular system requires a password history, configuration should be set for 25 remembered passwords.\n\n- Passwords are not acceptable if they match the subsequent patterns, and must be checked against commonly used or expected patterns, including: known breached password lists, dictionary words, repetitive or sequential characters, or context specific words such as the name of the service, username, or derivatives thereof.\n\n- System administrators of applications and/or devices must change default passwords.\n\n- System administrators need to enable password strength on third party applications and/or tools, where applicable.\n\n- For applications where a password is the only source of authentication, a password must be expired within a maximum of 90 calendar days.\n\n- Systems should monitor and log failed login attempts.\n\n- Information related to authentication failed login attempts need to be recorded within the application logs if technically feasible; such as: name, date, number of failed attempts, unique log identifier.\n\n- Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts. If the particular system will not support lockout after 10 attempts or less, the lockout needs to be configured to the minimum value allowed by the system. The lockout may end after a designated period of time, or require a manual unlock, depending on the profile of the application.\n\n- Multi Factor Authentication (MFA) must be enforced.",
+            "metadata": {
+              "title": "Password Standards",
+              "chunk_tokens": 384,
+              "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/",
+              "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/#system-password-configuration-requirements",
+              "section": "GitLab Password Standards > Standard > System Password Configuration Requirements",
+              "snapshot_date": "2026-09-23T18:17:48.513413+00:00",
+              "document_id": "password-standard",
+              "anchor": "system-password-configuration-requirements",
+              "body_char_start": 0,
+              "section_index": 7,
+              "license": "CC BY-SA 4.0",
+              "body_char_end": 1669,
+              "sha256": "b2d9c333416fcae5eb8fc962afaab5566ed8933c6cb75bec4052c77a0eb74fd6",
+              "token_count": 330,
+              "chunk_index": 7,
+              "overlap_tokens": 64,
+              "chunk_id": "18ac31aa5e7cb159c55f4b1a",
+              "category": "IT/security"
+            },
+            "score": 0.8705553412437439
+          },
+          {
+            "id": "d3d93e870e42690256366c74",
+            "text": "Document: Password Standards\nSection: GitLab Password Standards > Standard\n\nConstructing secure passwords and ensuring proper password management is essential. GitLab’s password standards are based, in part, on the recommendations by NIST 800-63B . To learn what makes a password truly secure, read this article or watch this conference presentation on password strength.\n\nNote: If a system cannot support a specific configuration in this standard due to technical limitations, the configuration must be set to the closest possible setting that matches this standard. An exception must be opened here , and an associated risk rating and exception review timeline will be assigned in accordance with the matrix in the request issue.",
+            "metadata": {
+              "body_char_end": 655,
+              "document_id": "password-standard",
+              "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/#standard",
+              "category": "IT/security",
+              "snapshot_date": "2026-09-23T18:17:48.513413+00:00",
+              "chunk_index": 4,
+              "overlap_tokens": 64,
+              "title": "Password Standards",
+              "anchor": "standard",
+              "sha256": "b2d9c333416fcae5eb8fc962afaab5566ed8933c6cb75bec4052c77a0eb74fd6",
+              "token_count": 134,
+              "chunk_tokens": 384,
+              "license": "CC BY-SA 4.0",
+              "section": "GitLab Password Standards > Standard",
+              "section_index": 4,
+              "chunk_id": "d3d93e870e42690256366c74",
+              "body_char_start": 0,
+              "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/"
+            },
+            "score": 0.8343665599822998
+          },
+          {
+            "id": "d42e405d54b89e793b842e3a",
+            "text": "Document: Password Standards\nSection: GitLab Password Standards > References\n\nNone",
+            "metadata": {
+              "chunk_id": "d42e405d54b89e793b842e3a",
+              "category": "IT/security",
+              "snapshot_date": "2026-09-23T18:17:48.513413+00:00",
+              "chunk_index": 14,
+              "chunk_tokens": 384,
+              "sha256": "b2d9c333416fcae5eb8fc962afaab5566ed8933c6cb75bec4052c77a0eb74fd6",
+              "body_char_start": 0,
+              "section_index": 11,
+              "body_char_end": 4,
+              "overlap_tokens": 64,
+              "anchor": "references",
+              "token_count": 16,
+              "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/",
+              "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/#references",
+              "license": "CC BY-SA 4.0",
+              "section": "GitLab Password Standards > References",
+              "title": "Password Standards",
+              "document_id": "password-standard"
+            },
+            "score": 0.8063413500785828
+          },
+          {
+            "id": "97dabfb8d6b4d5c7c9e5ab93",
+            "text": "Document: Password Standards\nSection: GitLab Password Standards > Scope\n\nApplies to all GitLab team members, contractors, advisors, and contracted parties interacting with GitLab computing resources and accessing confidential data.",
+            "metadata": {
+              "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/#scope",
+              "title": "Password Standards",
+              "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/",
+              "sha256": "b2d9c333416fcae5eb8fc962afaab5566ed8933c6cb75bec4052c77a0eb74fd6",
+              "chunk_id": "97dabfb8d6b4d5c7c9e5ab93",
+              "document_id": "password-standard",
+              "chunk_tokens": 384,
+              "category": "IT/security",
+              "section_index": 2,
+              "anchor": "scope",
+              "body_char_end": 158,
+              "license": "CC BY-SA 4.0",
+              "snapshot_date": "2026-09-23T18:17:48.513413+00:00",
+              "section": "GitLab Password Standards > Scope",
+              "overlap_tokens": 64,
+              "body_char_start": 0,
+              "token_count": 44,
+              "chunk_index": 2
+            },
+            "score": 0.7919009327888489
+          }
+        ],
+        "reason": "",
+        "latency_seconds": 40.3246,
+        "trace": [
+          "validate_question",
+          "retrieve_dense",
+          "evidence_gate",
+          "grounded_generation",
+          "validate_citations"
+        ],
+        "api_called": true,
+        "threshold": 0.777080996131897
+      },
+      "rerender_added_no_api_attempt": true,
+      "ui_success": [
+        "Answer with validated source references"
+      ],
+      "ui_info": [],
+      "ui_error": []
+    },
+    {
+      "id": "U1",
+      "question": "How many paid days off does GitLab offer for adopting a pet?",
+      "response": {
+        "query": "How many paid days off does GitLab offer for adopting a pet?",
+        "status": "fallback",
+        "answer": "I couldn't find enough evidence in the selected policy documents to answer that reliably. Please check the relevant policy or ask a more specific question.",
+        "citations": [],
+        "evidence": [
+          {
+            "id": "79d9b1fc849207a2aea7332a",
+            "text": "Document: Time Off Types\nSection: Time Off Types > Sick Time > Sick Time Eligibility and Coverage\n\n- GitLab’s Sick Time policy is administered concurrently with any statutory sick leave for which you may be eligible.\n\n- Each GitLab team member may use up to 25 paid sick days, available from their first day of work. Eligibility is calculated on a rolling 12-month period.\n\n- What does a rolling 12-month period mean? A rolling 12-month calendar refers to a period that always spans exactly 12 consecutive months, but continuously shifts forward as time passes, so the start and end dates move forward together while maintaining a constant 12-month window.",
+            "metadata": {
+              "token_count": 135,
+              "title": "Time Off Types",
+              "section": "Time Off Types > Sick Time > Sick Time Eligibility and Coverage",
+              "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#sick-time-eligibility-and-coverage",
+              "chunk_id": "79d9b1fc849207a2aea7332a",
+              "chunk_index": 13,
+              "license": "CC BY-SA 4.0",
+              "body_char_end": 557,
+              "sha256": "e73b1902cce200c3f1e8ffd201349aa56a7354f24cf4d286c9a19449561b8f12",
+              "snapshot_date": "2026-09-23T18:17:34.967460+00:00",
+              "anchor": "sick-time-eligibility-and-coverage",
+              "source_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+              "chunk_tokens": 384,
+              "overlap_tokens": 64,
+              "document_id": "time-off-types",
+              "section_index": 13,
+              "category": "HR",
+              "body_char_start": 0
+            },
+            "score": 0.7787572741508484
+          }
+        ],
+        "reason": "insufficient_evidence",
+        "latency_seconds": 8.9907,
+        "trace": [
+          "validate_question",
+          "retrieve_dense",
+          "evidence_gate",
+          "grounded_generation",
+          "validate_citations",
+          "fallback"
+        ],
+        "api_called": true,
+        "threshold": 0.777080996131897
+      },
+      "rerender_added_no_api_attempt": true,
+      "ui_success": [],
+      "ui_info": [
+        "The available evidence is insufficient for a supported answer."
+      ],
+      "ui_error": []
+    }
+  ]
+}

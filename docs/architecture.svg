@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="820" viewBox="0 0 1280 820" role="img" aria-labelledby="title description">
+  <title id="title">Enterprise Policy RAG — P1 architecture</title>
+  <desc id="description">Two lanes show offline indexing and the online LangGraph workflow. Twelve approved GitLab pages supply active 256-token chunks with 48-token overlap, with the 384/64 baseline preserved. BGE embeddings run locally, Chroma stores vectors, and saved chunks supply BM25. A question passes input and personal legal-entitlement scope validation. One retrieval node runs dense retrieval, BM25 and RRF sequentially, returning ten candidates. A query-level relevance gate examines at most five selected, deduplicated passages before Gemini and citation validation. Invalid or out-of-scope questions, insufficient evidence, or invalid citations produce fallback. Index, configuration and API failures produce a separate error. Quote matching checks provenance, not semantic entailment.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#243447"/></marker>
+    <marker id="errorArrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#9b3434"/></marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #172b3a; }
+      .heading { font-size: 29px; font-weight: 700; }
+      .subtitle { font-size: 18px; fill: #465968; }
+      .lane { font-size: 17px; font-weight: 700; letter-spacing: 1px; }
+      .node { fill: #fff; stroke: #344c60; stroke-width: 2; rx: 12; }
+      .nodeTitle { font-size: 20px; font-weight: 700; text-anchor: middle; }
+      .smallTitle { font-size: 18px; font-weight: 700; text-anchor: middle; }
+      .detail { font-size: 16px; text-anchor: middle; fill: #3b5263; }
+      .edge { fill: none; stroke: #243447; stroke-width: 2; marker-end: url(#arrow); }
+      .dataEdge { fill: none; stroke: #406881; stroke-width: 2; stroke-dasharray: 6 5; marker-end: url(#arrow); }
+      .errorEdge { fill: none; stroke: #9b3434; stroke-width: 2; marker-end: url(#errorArrow); }
+      .label { font-size: 15px; fill: #3b5263; }
+      .errorLabel { font-size: 15px; fill: #9b3434; }
+      .note { font-size: 16px; fill: #465968; }
+    </style>
+  </defs>
+  <rect width="1280" height="820" fill="#fff"/>
+  <text x="40" y="48" class="heading">Enterprise Policy RAG</text>
+  <text x="40" y="78" class="subtitle">P1 · Dense + BM25 + RRF · Explicit evidence checks · Cited answers</text>
+
+  <rect x="24" y="108" width="1232" height="173" rx="16" fill="#f0f5f8"/>
+  <text x="44" y="136" class="lane">OFFLINE · BUILD ONCE</text>
+  <rect x="44" y="155" width="239" height="105" class="node"/>
+  <text x="163.5" y="186" class="nodeTitle">12 approved pages</text>
+  <text x="163.5" y="213" class="detail">GitLab policy snapshot</text>
+  <text x="163.5" y="238" class="detail">URLs + dates + checksums</text>
+  <path d="M283 207 H326" class="edge"/>
+  <rect x="328" y="155" width="259" height="105" class="node"/>
+  <text x="457.5" y="186" class="nodeTitle">Clean + split</text>
+  <text x="457.5" y="213" class="detail">Preserve headings and tables</text>
+  <text x="457.5" y="238" class="detail">256 / 48 · P0: 384 / 64</text>
+  <path d="M587 207 H631" class="edge"/>
+  <rect x="633" y="155" width="259" height="105" class="node"/>
+  <text x="762.5" y="186" class="nodeTitle">Local BGE · CPU</text>
+  <text x="762.5" y="213" class="detail">bge-small-en-v1.5</text>
+  <text x="762.5" y="238" class="detail">384-dimensional vectors</text>
+  <path d="M892 207 H936" class="edge"/>
+  <rect x="938" y="155" width="297" height="105" class="node"/>
+  <text x="1086.5" y="186" class="nodeTitle">Local Chroma</text>
+  <text x="1086.5" y="213" class="detail">Cosine index + chunk metadata</text>
+  <text x="1086.5" y="238" class="detail">Saved chunks for local BM25</text>
+
+  <text x="44" y="317" class="lane">ONLINE · LANGGRAPH</text>
+  <rect x="700" y="300" width="535" height="64" rx="12" fill="#fff2f2" stroke="#9b3434" stroke-width="2"/>
+  <text x="967.5" y="326" class="smallTitle">SERVICE / LOCAL RESOURCE ERROR</text>
+  <text x="967.5" y="351" class="detail">Safe error code · status: error · separate from fallback</text>
+  <path d="M590 419 V332 H698" class="errorEdge"/>
+  <text x="431" y="355" class="errorLabel">Index / configuration error</text>
+  <path d="M787.5 419 V366" class="errorEdge"/>
+  <text x="802" y="396" class="errorLabel">API / setup error</text>
+
+  <path d="M1086 260 V287 H398 V417" class="dataEdge"/>
+  <rect x="277" y="369" width="242" height="27" rx="4" fill="#fff"/>
+  <text x="284" y="388" class="label">Verified index + local query vector</text>
+
+  <rect x="40" y="420" width="100" height="100" class="node"/>
+  <text x="90" y="460" class="smallTitle">Question</text>
+  <text x="90" y="486" class="detail">Streamlit</text>
+  <path d="M140 470 H163" class="edge"/>
+  <rect x="165" y="420" width="130" height="100" class="node"/>
+  <text x="230" y="451" class="smallTitle">Validate</text>
+  <text x="230" y="477" class="detail">Input + scope</text>
+  <text x="230" y="501" class="detail">≤ 1,500 chars</text>
+  <path d="M295 470 H318" class="edge"/>
+  <rect x="320" y="420" width="160" height="100" class="node"/>
+  <text x="400" y="451" class="smallTitle">Hybrid retrieval</text>
+  <text x="400" y="477" class="detail">Dense + BM25</text>
+  <text x="400" y="501" class="detail">RRF · top 10</text>
+  <path d="M480 470 H503" class="edge"/>
+  <rect x="505" y="420" width="170" height="100" class="node"/>
+  <text x="590" y="450" class="smallTitle">Evidence gate</text>
+  <text x="590" y="477" class="detail">Relevance + dedup</text>
+  <text x="590" y="501" class="detail">At most 5 passages</text>
+  <path d="M675 470 H698" class="edge"/>
+  <rect x="700" y="420" width="175" height="100" class="node" fill="#f0f5f8"/>
+  <text x="787.5" y="450" class="smallTitle">Gemini API</text>
+  <text x="787.5" y="477" class="detail">3.5 Flash-Lite</text>
+  <text x="787.5" y="501" class="detail">Claims + source quotes</text>
+  <path d="M875 470 H898" class="edge"/>
+  <rect x="900" y="420" width="175" height="100" class="node"/>
+  <text x="987.5" y="450" class="smallTitle">Citation check</text>
+  <text x="987.5" y="477" class="detail">Sufficient? Valid IDs?</text>
+  <text x="987.5" y="501" class="detail">Exact source quotes?</text>
+  <path d="M1075 470 H1098" class="edge"/>
+  <rect x="1100" y="420" width="140" height="100" rx="12" fill="#edf5f1" stroke="#344c60" stroke-width="2"/>
+  <text x="1170" y="450" class="smallTitle">Cited answer</text>
+  <text x="1170" y="477" class="detail">Metadata links</text>
+  <text x="1170" y="501" class="detail">status: answered</text>
+
+  <path d="M230 520 V681 H428" class="edge"/>
+  <text x="244" y="556" class="label">Invalid / out of scope</text>
+  <path d="M590 520 V629" class="edge"/>
+  <text x="602" y="551" class="label">No passing evidence</text>
+  <text x="602" y="574" class="label">Zero API calls</text>
+  <path d="M987.5 520 V600 H757 V629" class="edge"/>
+  <text x="853" y="552" class="label">Insufficient model evidence</text>
+  <text x="853" y="575" class="label">or invalid citation / quotation</text>
+  <rect x="430" y="631" width="400" height="100" rx="12" fill="#f4f5f7" stroke="#344c60" stroke-width="2"/>
+  <text x="630" y="663" class="nodeTitle">Conservative fallback</text>
+  <text x="630" y="691" class="detail">Fixed response · no unsupported answer</text>
+  <text x="630" y="715" class="detail">status: fallback</text>
+
+  <line x1="40" y1="756" x2="1240" y2="756" stroke="#ccd7df"/>
+  <text x="40" y="784" class="note">One sequential retrieval node; quote checks verify provenance, not semantic entailment.</text>
+  <text x="1240" y="806" class="note" text-anchor="end">Implementation: app/graph.py · P1 hybrid · P0 preserved</text>
+</svg>

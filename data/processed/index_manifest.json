@@ -1,0 +1,63 @@
+{
+  "documents": [
+    [
+      "anti-corruption",
+      "a4dd9298a8e78f00dc7b2dc658a00ac0fd5b7b3d5d12a9691d8ee7d4ab4f5b17"
+    ],
+    [
+      "anti-harassment",
+      "c45ced59ef7ec7837158ceca9d650048523ba5b70c0db7cc89f62e37feda0785"
+    ],
+    [
+      "anti-retaliation",
+      "83ec025573f6c171bddd041704418a86552e1295421532c8656c953b87703264"
+    ],
+    [
+      "data-classification",
+      "90ecfde2b835152bb4a2862565e9bb577868ff26178a40670e0bc06423066a1c"
+    ],
+    [
+      "ethics-compliance",
+      "9cd981b34512156109adc57b63d2333f6be0930a075facdccf7735f439a73088"
+    ],
+    [
+      "general-onboarding",
+      "d1b4a886ec7714ed91f46f4ac9c349ce8dee87a3a41977a13d133b74df0f50d3"
+    ],
+    [
+      "gifts-contributions",
+      "b5d2b5124fea9a62fca7e2cf4704bbdbe060b09ff3d0a35d76e19271cd7004c6"
+    ],
+    [
+      "password-standard",
+      "b2d9c333416fcae5eb8fc962afaab5566ed8933c6cb75bec4052c77a0eb74fd6"
+    ],
+    [
+      "physical-security",
+      "d585aaadc3472d12c0d11f8868a992aab36636f694ab76645cc90d95ebbdb766"
+    ],
+    [
+      "security-training",
+      "d3af8eac2f65e6939b9f6d39dc5745661dd3bb6b56e8662980507a3633bda3ed"
+    ],
+    [
+      "time-off-types",
+      "e73b1902cce200c3f1e8ffd201349aa56a7354f24cf4d286c9a19449561b8f12"
+    ],
+    [
+      "travel-expenses",
+      "819d92bf07782bf6496cfbf92405e03398ed8981efc20c0ad78ae9a39948f580"
+    ]
+  ],
+  "model": "BAAI/bge-small-en-v1.5",
+  "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "chunk_tokens": 384,
+  "overlap_tokens": 64,
+  "extractor_version": 1,
+  "corpus_fingerprint": "54f266507d2c05664069d4eef493c81e6eebe87529880cf91e822fbbdce1725d",
+  "collection_name": "gitlab_policy_bge_384",
+  "chunk_count": 312,
+  "index_sha256": "95aec3f81837a20be1ae5d5940b9b2c6a2cf14cfd76f11b14feb7fe5255864f0",
+  "document_count": 12,
+  "indexed_at": "2026-09-23T18:24:55.343925+00:00"
+}

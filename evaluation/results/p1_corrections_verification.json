@@ -1,0 +1,105 @@
+{
+  "timestamp_utc": "2026-09-24T02:12:49.212692+00:00",
+  "method": "Targeted production LangGraph with forbidden retrieval/generation callbacks; no API. Not a second full live evaluation.",
+  "baseline_result_preserved": "evaluation\\results\\p1_hybrid_256_evaluation.json",
+  "original_B1_status": "answered",
+  "api_attempts_before": 22,
+  "api_attempts_after": 22,
+  "targeted_scope_results": [
+    {
+      "query": "How many paid sick days am I legally entitled to?",
+      "status": "fallback",
+      "answer": "I can't determine personal legal entitlements from this company-policy snapshot. Please check the applicable jurisdiction and employment terms with HR or qualified counsel.",
+      "citations": [],
+      "evidence": [],
+      "reason": "personal_legal_entitlement_out_of_scope",
+      "latency_seconds": 0.0102,
+      "trace": [
+        "validate_question",
+        "fallback"
+      ],
+      "api_called": false
+    },
+    {
+      "query": "What are my statutory annual leave entitlements in France?",
+      "status": "fallback",
+      "answer": "I can't determine personal legal entitlements from this company-policy snapshot. Please check the applicable jurisdiction and employment terms with HR or qualified counsel.",
+      "citations": [],
+      "evidence": [],
+      "reason": "personal_legal_entitlement_out_of_scope",
+      "latency_seconds": 0.0063,
+      "trace": [
+        "validate_question",
+        "fallback"
+      ],
+      "api_called": false
+    },
+    {
+      "query": "What minimum leave does the law guarantee employees?",
+      "status": "fallback",
+      "answer": "I can't determine personal legal entitlements from this company-policy snapshot. Please check the applicable jurisdiction and employment terms with HR or qualified counsel.",
+      "citations": [],
+      "evidence": [],
+      "reason": "personal_legal_entitlement_out_of_scope",
+      "latency_seconds": 0.0053,
+      "trace": [
+        "validate_question",
+        "fallback"
+      ],
+      "api_called": false
+    },
+    {
+      "query": "Are we legally entitled to severance pay?",
+      "status": "fallback",
+      "answer": "I can't determine personal legal entitlements from this company-policy snapshot. Please check the applicable jurisdiction and employment terms with HR or qualified counsel.",
+      "citations": [],
+      "evidence": [],
+      "reason": "personal_legal_entitlement_out_of_scope",
+      "latency_seconds": 0.005,
+      "trace": [
+        "validate_question",
+        "fallback"
+      ],
+      "api_called": false
+    }
+  ],
+  "original_answered_evidence_gate_audit": [
+    {
+      "id": "F1",
+      "passing_cosine_in_actual_evidence": true
+    },
+    {
+      "id": "F2",
+      "passing_cosine_in_actual_evidence": true
+    },
+    {
+      "id": "F3",
+      "passing_cosine_in_actual_evidence": true
+    },
+    {
+      "id": "P2",
+      "passing_cosine_in_actual_evidence": true
+    },
+    {
+      "id": "N1",
+      "passing_cosine_in_actual_evidence": true
+    },
+    {
+      "id": "N2",
+      "passing_cosine_in_actual_evidence": true
+    },
+    {
+      "id": "A1",
+      "passing_cosine_in_actual_evidence": true
+    },
+    {
+      "id": "M1",
+      "passing_cosine_in_actual_evidence": true
+    },
+    {
+      "id": "B1",
+      "passing_cosine_in_actual_evidence": true
+    }
+  ],
+  "limitation": "A narrow deterministic legal-entitlement boundary is not a general semantic or jurisdiction checker."
+}

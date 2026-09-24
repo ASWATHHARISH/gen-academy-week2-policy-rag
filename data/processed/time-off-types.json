@@ -1,0 +1,269 @@
+{
+  "document_id": "time-off-types",
+  "title": "Time Off Types",
+  "source_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+  "category": "HR",
+  "snapshot_date": "2026-09-23T18:17:34.967460+00:00",
+  "sha256": "e73b1902cce200c3f1e8ffd201349aa56a7354f24cf4d286c9a19449561b8f12",
+  "license": "CC BY-SA 4.0",
+  "sections": [
+    {
+      "section": "Time Off Types",
+      "anchor": "",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+      "text": "For information specific to your location, please review this page ."
+    },
+    {
+      "section": "Time Off Types > Flexible Paid Time Off (PTO)",
+      "anchor": "flexible-paid-time-off-pto",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#flexible-paid-time-off-pto",
+      "text": "This page focuses specifically on GitLab’s Flexible PTO policy and is written with a focus on using PTO to fulfill personal obligations, rest or recharge, enjoy a vacation, or spend time with family and friends. You can learn more about GitLab’s overall Philosophy to Time Away from Work here and find more detailed policies on all Time Off types and Leave types in their respective handbook sections."
+    },
+    {
+      "section": "Time Off Types > Flexible Paid Time Off (PTO) > Overview",
+      "anchor": "overview",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#overview",
+      "text": "GitLab offers a Flexible PTO policy that empowers team members to take the time they need while ensuring business continuity. This policy reflects our values of transparency, collaboration, and GitLab’s overall Philosophy to Time Away from Work .\n\n- Our Flexible PTO policy means that as long as you have coordinated with your manager about your planned time off and made a coverage plan, you are free to take PTO.\n\n- GitLab does not set a specific limit on the amount of PTO a team member can take per year. However, for time off exceeding 25 consecutive calendar days (including weekends and holidays), special permission is required from your Manager, People Business Partner, and the Absence Management Team at leaves@gitlab.com .\n\n- All team members are encouraged to take adequate time off to recharge.\n\n- Team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental-health-related, please follow our Sick Time Policy .\n\n- We strongly recommend taking at least two consecutive weeks of time off and at minimum 25 days total throughout the year."
+    },
+    {
+      "section": "Time Off Types > Flexible Paid Time Off (PTO) > PTO Protocols (Planning and Coordination)",
+      "anchor": "pto-protocols-planning-and-coordination",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#pto-protocols-planning-and-coordination",
+      "text": "- Discuss planned time off with your manager first and provide as much notice as possible, but at least twice as many days as your planned time off (e.g., 6 business days notice for 3 days off).\n\n- Coordinate with your team and stakeholders, especially during popular holiday periods.\n\n- Managers will evaluate PTO requests against team deliverables and business needs.\n\n- If a manager needs to request changes to your PTO plans, they will do so within 48 hours and specify which goal or result may be impacted.\n\n- If no compromise can be reached, escalate to your manager’s manager.\n\n- Some departments have specific windows when team presence is critical - check your department handbook page if applicable."
+    },
+    {
+      "section": "Time Off Types > Flexible Paid Time Off (PTO) > How to Enter PTO in Workday",
+      "anchor": "how-to-enter-pto-in-workday",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#how-to-enter-pto-in-workday",
+      "text": "- You can enter PTO directly into the Workday app, or through the Workday Slack integration.\n\n- Select the day(s) you want to take > Click “Time-Off” > Click “Paid Time Off” > Optional: add a comment > Click “Submit”\n\nImportant : All team members must log their time away in Workday. To read more about the Workday Module, please refer to: Workday: Single Source of Truth for Absence .\n\nHelp! I made a mistake and need to make edits, now what? Team members can edit future-dated time off entries and any entries made up to 30 days in the past. Older entries will require a submission to the People Connect team via Compass."
+    },
+    {
+      "section": "Time Off Types > Flexible Paid Time Off (PTO) > How to Prepare for PTO",
+      "anchor": "how-to-prepare-for-pto",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#how-to-prepare-for-pto",
+      "text": "Please read the Communicating (& Preparing for) Planned Time Away page. Managers may have additional action-items review/complete before going on PTO, please visit the Manager Toolkit ."
+    },
+    {
+      "section": "Time Off Types > Flexible Paid Time Off (PTO) > Global Statutory Requirements",
+      "anchor": "global-statutory-requirements",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#global-statutory-requirements",
+      "text": "As a global company, GitLab is committed to complying with all statutory requirements in the countries where our team members reside. While our Flexible PTO policy often exceeds local requirements, specific entitlements and obligations vary by location. Please refer to your location-specific policy for details about statutory minimums, accruals, and carryover rules that may apply to you. Ensuring compliance with these requirements is a shared responsibility between team members and GitLab."
+    },
+    {
+      "section": "Time Off Types > Public Holiday > Overview",
+      "anchor": "overview-1",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#overview-1",
+      "text": "As a company that prides itself on a family & friends first approach no one is expected to attend calls on days they are not working or out of the office for an official public holiday. We encourage all team members to take time off for public holidays. As a company that values Diversity, Inclusion & Belonging , public holidays will not be pre-loaded to Workday, instead team members have the flexibility to elect different dates and celebrate what’s important to them, as long as they do not exceed the balance in Workday. This means YOU CAN CHOOSE the public holidays you want to take.\n\n- All team members will see a public holiday accrual balance in Workday.\n\n- The balance is country specific and was determined based on the local and/or contractual requirements.\n\n- Balances are reviewed and updated if appropriate annually, based on benchmarked data for “National Holidays”.*\n\n- The balance must be used within the calendar year, unused public holiday balances will not rollover to the following calendar year.\n\nNote *: Contractors of GitLab GSI (previously IT BV) are eligible for general benefits but not entity-specific benefits (including public holidays). However, GitLab has chosen to provide a standardized allocation of 12 public holidays as part of our commitment to supporting all team members. The 12-day allocation matches the weighted average of public holidays globally across countries where team members are employed by GitLab."
+    },
+    {
+      "section": "Time Off Types > Public Holiday > General List of Public Holidays",
+      "anchor": "general-list-of-public-holidays",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#general-list-of-public-holidays",
+      "text": "For a general list of public holidays by country, follow these steps:\n\n- Go to the timeanddate.com\n\n- Select ‘Holidays Worldwide’ from the Calendar dropdown menu.\n\n- Select your country of residence\n\n- Change the dropdown from ‘All holidays and national observances’ to ‘Public Holidays’"
+    },
+    {
+      "section": "Time Off Types > Public Holiday > How to Enter Public Holidays in Workday",
+      "anchor": "how-to-enter-public-holidays-in-workday",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#how-to-enter-public-holidays-in-workday",
+      "text": "- You can enter Public Holidays directly into the Workday app, or through the Workday Slack integration.\n\n- Select the day(s) you wish to observe as a public holiday > Click “Time-Off” > Click “Public Holiday” > Optional: add a comment > Click “Submit”\n\nImportant : All team members must log their time away in Workday. To read more about Workday, please refer to: Workday: Single Source of Truth for Absence ."
+    },
+    {
+      "section": "Time Off Types > Public Holiday > Frequently Asked Public Holiday Questions",
+      "anchor": "frequently-asked-public-holiday-questions",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#frequently-asked-public-holiday-questions",
+      "text": "Help! I’m receiving an error message, what does this mean?\n\n- All team members will see public holiday balance accrual in Workday. If you encounter an error when trying to submit a Public Holiday it is likely because you have met that limit. If you’d still like to have that day off, please utilize GitLab’s Flexible PTO policy .\n\n- Public Holidays will be listed in Workday with a length of 1 day. You cannot take partial public holidays.\n\nI am a new hire. How has my public holiday balance been determined?\n\nWhen team members join mid-year, their public holiday balance is pro-rated based on their hire date using the following formula, where permitted by local law:\n\n- (Days remaining in the calendar year ÷ 365) × Full-year public holiday entitlement The result is rounded to the nearest whole day — up if the decimal is .5 or above, down if below .5.\n\nFor example, if your country’s full-year entitlement is 10 days and you joined with 92 days remaining in the year, your balance would be 10 × (92 ÷ 365) = 2.52, rounded up to 3 days.\n\nI still have questions related to public holidays and/or how to categorize my time off, who can I ask? Please submit your question to the People Operations team via Compass."
+    },
+    {
+      "section": "Time Off Types > Sick Time",
+      "anchor": "sick-time",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#sick-time",
+      "text": "This policy outlines GitLab’s approach to sick time for all team members. It is designed to complement, not replace, any statutory sick leave policies you may be eligible for in your country of residence. Team members are encouraged to familiarize themselves with their location’s statutory reporting requirements and entitlements in their respective handbook sections ."
+    },
+    {
+      "section": "Time Off Types > Sick Time > Overview",
+      "anchor": "overview-2",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#overview-2",
+      "text": "GitLab’s sick time policy supports team members who need time away to recover from illness. This policy aligns with our CREDIT values.\n\n- Sick time refers to time away needed to recover from short-term illness or for preventative care.\n\n- This includes personal illness (such as COVID-19, cold/flu, menstrual pain, surgery).\n\n- But what if I need to care for an ill family member? Please follow the Caregiver Sick Time Policy .\n\n- Except where required by applicable local law, GitLab’s sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance."
+    },
+    {
+      "section": "Time Off Types > Sick Time > Sick Time Eligibility and Coverage",
+      "anchor": "sick-time-eligibility-and-coverage",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#sick-time-eligibility-and-coverage",
+      "text": "- GitLab’s Sick Time policy is administered concurrently with any statutory sick leave for which you may be eligible.\n\n- Each GitLab team member may use up to 25 paid sick days, available from their first day of work. Eligibility is calculated on a rolling 12-month period.\n\n- What does a rolling 12-month period mean? A rolling 12-month calendar refers to a period that always spans exactly 12 consecutive months, but continuously shifts forward as time passes, so the start and end dates move forward together while maintaining a constant 12-month window."
+    },
+    {
+      "section": "Time Off Types > Sick Time > Reporting Procedures",
+      "anchor": "reporting-procedures",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#reporting-procedures",
+      "text": "Important: Statutory reporting requirements vary depending on the country/location you reside in and will always supersede the reporting requirements outlined below. Please be sure to familiarize yourself with the reporting requirements in your location ."
+    },
+    {
+      "section": "Time Off Types > Sick Time > For Sick Absences 1-5 Consecutive Days",
+      "anchor": "for-sick-absences-1-5-consecutive-days",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#for-sick-absences-1-5-consecutive-days",
+      "text": "- Notify your manager of your absence. Please note that you do not need to disclose any medical information (more information on communicating illness-related absence below).\n\n- Enter the time away in Workday by selecting the label “Out Sick”\n\n- Your sick time will automatically update in Time Off by Deel\n\n- If your absence is less than 6 consecutive days, then you do not need to provide a sick note (unless your statutory reporting requirements state otherwise)"
+    },
+    {
+      "section": "Time Off Types > Sick Time > For Sick Absences that Exceed 6+ Consecutive Days",
+      "anchor": "for-sick-absences-that-exceed-6-consecutive-days",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#for-sick-absences-that-exceed-6-consecutive-days",
+      "text": "Sick absences that are 6 days or longer are considered a leave of absence .\n\nUSA: Please submit your Leave request to Tilt (accessed through Okta). Once your request is submitted, it takes 2-5 business days to build your personalized leave plan. You will receive a notification when it is ready.\n\nAll other Locations: Follow the instructions below.\n\n- Notify the Absence Management Team by submitting a Compass ticket. This allows us to share more about the GitLab Sick Time Policy, review statutory benefits you may be eligible for, and walk you through any other next steps.\n\n- Enter the time away in Workday by selecting the label “Out Sick”.\n\n- Note : the Absence Management team may need to edit your entries or replace the entry with a Leave Type on your behalf.\n\n- Eligibility for GitLab’s Sick Time policy will require team members to provide evidence, in accordance with local requirements, supporting the need for Sick Leave. Please be aware that the exact documentation required may vary by location (i.e. medical certificate, doctor’s note, fit note, etc.). Please review your employment contract or your country’s Sick Time policy to determine what documentation may be needed."
+    },
+    {
+      "section": "Time Off Types > Sick Time > Pay While on Sick Leave of Absence",
+      "anchor": "pay-while-on-sick-leave-of-absence",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#pay-while-on-sick-leave-of-absence",
+      "text": "Eligible team members will receive 100% of their weekly wages for up to 25 working days through the GitLab Sick Time policy and any applicable statutory pay. If you live in a country or US state where a statutory benefit is available, you will be required to apply for statutory sick pay (if eligible), and GitLab will supplement your statutory sick pay to equal 100% of your weekly wages. You will not receive more than 100% of your wages. If your leave extends beyond 25 working days, it will be unpaid by GitLab (subject to local requirements).\n\nFAQ: I’m in a Sales role and receive commission. How is that impacted while on Sick Leave?\n\n- For information about attainment, quota, or commissions while on non-parental leave, this policy found in the internal handbook may help. If this doesn’t answer your questions or you have specific questions about your scenario, please submit a Compass ticket to the sales commission team directly, as they administer the Sales Incentives policies that apply to commission eligible team members on a leave of absence."
+    },
+    {
+      "section": "Time Off Types > Sick Time > Communicating Illness-Related Leave",
+      "anchor": "communicating-illness-related-leave",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#communicating-illness-related-leave",
+      "text": "All illness or medical related information should be handled confidentially and sensitively, protecting our team members’ personal information with great care.\n\nShould a team member have a medical concern, they will have the choice of how much information to share with their manager and People Business Partner. Many team members find it helpful to discuss their situation with their manager and PBP, as both can provide valuable support during the leave period and upon return, especially when additional accommodations may be needed. Team members should feel empowered to share what they’re comfortable with, knowing that any medical information will be handled confidentially and professionally.\n\nIf a team member prefers to keep medical details private, the Absence Management Team will coordinate with the People Business Partner and Manager on a need-to-know basis, providing only essential information related to leave dates.\n\nRegardless of how much information is shared, managers must never disclose any illness-related details to other team members to ensure we respect the privacy of the affected individual. The goal is to create a supportive environment where team members can focus on their health while feeling confident their privacy is protected."
+    },
+    {
+      "section": "Time Off Types > Caregiver Sick Time",
+      "anchor": "caregiver-sick-time",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#caregiver-sick-time",
+      "text": "This policy outlines GitLab’s approach to caregiver sick time for all team members who need time away to care for a sick family member. It is designed to complement, not replace, any statutory sick leave policies you may be eligible for in your country of residence. Team members are encouraged to familiarize themselves with their location’s statutory reporting requirements and entitlements in their respective handbook sections ."
+    },
+    {
+      "section": "Time Off Types > Caregiver Sick Time > Overview",
+      "anchor": "overview-3",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#overview-3",
+      "text": "GitLab’s caregiver sick time policy supports team members who need time away to care for ill family members. This policy aligns with our CREDIT values.\n\n- Caregiver sick time refers to time away needed to care for an ill family member.\n\n- Eligible family members include parent(s), child(ren), spouse, domestic partner, grandparent(s), grandchild(ren), or sibling(s).\n\n- Except where required by applicable local law, caregiver sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance."
+    },
+    {
+      "section": "Time Off Types > Caregiver Sick Time > Caregiver Sick Time Eligibility and Coverage",
+      "anchor": "caregiver-sick-time-eligibility-and-coverage",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#caregiver-sick-time-eligibility-and-coverage",
+      "text": "- GitLab’s Caregiver Sick Time policy is administered concurrently with any statutory family care leave for which you may be eligible.\n\n- If you live in a country or state where a statutory benefit is available, you will be required to apply for statutory leave pay (if eligible), and GitLab will supplement your pay to equal 100% of your weekly wages. You will not receive more than 100% of your wages with statutory leave and Caregiver Leave combined.\n\n- Each GitLab team member may use up to 25 paid caregiver sick days, available from their first day of work. Eligibility is calculated on a rolling 12-month period.\n\n- What does a rolling 12-month period mean? A rolling 12-month calendar refers to a period that always spans exactly 12 consecutive months, but continuously shifts forward as time passes, so the start and end dates move forward together while maintaining a constant 12-month window."
+    },
+    {
+      "section": "Time Off Types > Caregiver Sick Time > Reporting Procedures",
+      "anchor": "reporting-procedures-1",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#reporting-procedures-1",
+      "text": "Important: Statutory reporting requirements vary depending on the country/location you reside in and will always supersede the reporting requirements outlined below. Please be sure to familiarize yourself with the reporting requirements in your location."
+    },
+    {
+      "section": "Time Off Types > Caregiver Sick Time > For Caregiver Sick Absences 1-5 Consecutive Days",
+      "anchor": "for-caregiver-sick-absences-1-5-consecutive-days",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#for-caregiver-sick-absences-1-5-consecutive-days",
+      "text": "- Notify your manager of your absence.\n\n- Enter the time away in Workday by selecting the label “Caregiver Sick Time”\n\n- Your caregiver sick time will automatically update in Time Off by Deel\n\n- If your absence is less than 5 consecutive days, then you do not need to provide documentation (unless your statutory reporting requirements state otherwise)"
+    },
+    {
+      "section": "Time Off Types > Caregiver Sick Time > For Caregiver Sick Absences 6+ Consecutive Days",
+      "anchor": "for-caregiver-sick-absences-6-consecutive-days",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#for-caregiver-sick-absences-6-consecutive-days",
+      "text": "Caregiver sick absences that are 6 days or longer are considered a leave of absence .\n\nUSA: Please submit your Leave request to Tilt (accessed through Okta).\n\nAll other Locations: Follow the instructions below.\n\n- Notify the Absence Management Team by submitting a Compass ticket. This allows us to share more about the GitLab Caregiver Sick Time Policy, review statutory benefits you may be eligible for, and walk you through any other next steps.\n\n- Enter the time away in Workday by selecting the label “Caregiver Sick Time”\n\n- Note : the Absence Management team may need to edit your entries or replace the entry with a Leave Type on your behalf\n\n- Eligibility for a leave of absence under GitLab’s Caregiver Sick policy will require team members to provide evidence, in accordance with local requirements, supporting the need for Caregiver Leave. Please be aware that the exact documentation required may vary by location (i.e. medical certificate, doctor’s note, fit note, etc.).\n\n- Team Members should submit the documentation to the Absence Management team (Compass ticket)."
+    },
+    {
+      "section": "Time Off Types > Caregiver Sick Time > Pay While on Caregiver Sick Leave of Absence",
+      "anchor": "pay-while-on-caregiver-sick-leave-of-absence",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#pay-while-on-caregiver-sick-leave-of-absence",
+      "text": "Eligible team members will receive 100% of their weekly wages for up to 25 working days through the GitLab Caregiver Sick Time policy and any applicable statutory pay. If you live in a country or US state where a statutory caregiver sick benefit is available, you will be required to apply for statutory caregiver sick pay (if eligible), and GitLab will supplement your statutory caregiver sick pay to equal 100% of your weekly wages. You will not receive more than 100% of your wages. If your leave extends beyond 25 working days, it will be unpaid by GitLab (subject to local requirements).\n\nFAQ: I’m in a Sales role and receive commission. How is that impacted while on Caregiver Sick Leave?\n\n- For information about attainment, quota, or commissions while on non-parental leave, this policy found in the internal handbook may help. If this doesn’t answer your questions or you have specific questions about your scenario, please submit a Compass ticket to the sales commission team directly, as they administer the Sales Incentives policies that apply to commission eligible team members on a leave of absence."
+    },
+    {
+      "section": "Time Off Types > Bereavement",
+      "anchor": "bereavement",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#bereavement",
+      "text": "This policy outlines GitLab’s approach to bereavement leave. In locations where statutory laws mandate specific bereavement leave provisions, those legal requirements will supersede this policy."
+    },
+    {
+      "section": "Time Off Types > Bereavement > Overview",
+      "anchor": "overview-4",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#overview-4",
+      "text": "At GitLab, we understand that losing a loved one is one of life’s most challenging experiences. This policy establishes guidelines for bereavement leave while maintaining our commitment to flexibility and support for team members during difficult times.\n\nBereavement leave at GitLab falls under our Flexible PTO framework, allowing team members to take the time they need when faced with a loss. This benefit is available to all team members on their first day of work.\n\n- Flexible Duration : There is no set limit on bereavement days. We recognize that grief is unique to each person and situation. You can take bereavement continuously or intermittently.\n\n- Inclusive Approach : We don’t restrict or tier leave based on relationship to the deceased. This includes loss of pregnancy (birthing and non-birthing parents), family members, friends, colleagues, and pets.\n\n- Manager Coordination : As with all time off at GitLab, team members should coordinate with their manager about their needs and coverage plans.\n\n- Confidentiality : Details shared about a loss will be treated with strict confidentiality and respect."
+    },
+    {
+      "section": "Time Off Types > Bereavement > Request Process",
+      "anchor": "request-process",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#request-process",
+      "text": "We realize that advance notice may not always be possible in these circumstances. You should notify your manager as soon as you’re able and enter dates in Workday when you can.\n\n- Notify Your Manager : Inform your manager about your need for bereavement leave as soon as possible. You only need to share details you’re comfortable discussing. You can also work directly with the Absence Management team if you prefer (email leaves@gitlab.com ).\n\n- Document in Workday : Enter your bereavement leave request through the Workday app or Slack integration:\n\n- Select the day(s) you need > Click “Time-Off” > Click “Bereavement” > Optional : add a comment > Click “Submit”\n\n- Review your country’s reporting requirements to ensure compliance with local regulations\n\n- Create a Coverage Plan : Arrange appropriate coverage for your responsibilities, set expectations around communication during your absence, and plan for your return to work.\n\nNo Documentation Required: At GitLab, we trust our team members. We do not require documentation or proof of loss to access bereavement leave (unless required by local/statutory law). This approach builds trust and supports team members during vulnerable times."
+    },
+    {
+      "section": "Time Off Types > Bereavement > Pay and Benefits",
+      "anchor": "pay-and-benefits",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#pay-and-benefits",
+      "text": "- Compensation : Team members receive 100% of their weekly wages during bereavement leave\n\n- Benefits Continuation : GitLab maintains your access to group benefits during leave, subject to benefit plan terms and local legislation\n\n- Health Insurance : Coverage continues on the same terms as active employment, with team members responsible for their premium contributions."
+    },
+    {
+      "section": "Time Off Types > Bereavement > Leave Extensions",
+      "anchor": "leave-extensions",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#leave-extensions",
+      "text": "If your bereavement leave exceeds 25 calendar days, please reach out to your manager, People Business Partner, and the Absence Management Team at leaves@gitlab.com for an extension."
+    },
+    {
+      "section": "Time Off Types > Bereavement > Coordination with Other Leaves",
+      "anchor": "coordination-with-other-leaves",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#coordination-with-other-leaves",
+      "text": "Bereavement leave may run concurrently with or be supplemented by other job-protected or income-replacement leave as required by applicable laws."
+    },
+    {
+      "section": "Time Off Types > Bereavement > Support Resources",
+      "anchor": "support-resources",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#support-resources",
+      "text": "GitLab provides several resources to support team members experiencing grief:\n\n- Mental Health Benefits : Access counseling services through our benefits provider, Modern Health\n\n- Employee Assistance Program (EAP) : Review your location’s benefits for additional support services and resources that might be offered\n\n- Bereave Support Benefits : Bereave\n\n- Life Insurance Support : Review your location’s resources for support that might be offered\n\n- Peer Support : Optional connection with other team members who have experienced similar losses"
+    },
+    {
+      "section": "Time Off Types > Volunteer > Overview",
+      "anchor": "overview-5",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#overview-5",
+      "text": "GitLab encourages team members to volunteer within their community to take care of others. Volunteer time-off at GitLab falls under our Flexible PTO framework, allowing team members to take time off to support causes that matter to you and your personal commitment to GitLab’s values such as diversity, inclusion and belonging."
+    },
+    {
+      "section": "Time Off Types > Volunteer > Request Process",
+      "anchor": "request-process-1",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#request-process-1",
+      "text": "- Notify Your Manager : Discuss and coordinate time-off with your manager in alignment with our Flexible PTO policy, providing as much notice as possible, but at least twice as many days as your planned time off (e.g., 6 business days notice for 3 days off).\n\n- Document in Workday : You can enter Volunteer time directly into the Workday app, or through the Workday Slack integration.\n\n- Select the day(s) you need to take > Click “Time-Off” > Click “Volunteer” > Optional: add a comment > Click “Submit”\n\n- Create a Coverage Plan : Arrange appropriate coverage for your responsibilities, set expectations around communication during your absence, plan for your return to work."
+    },
+    {
+      "section": "Time Off Types > Volunteer > Discover GitLab’s Volunteering Opportunities with GiveLab",
+      "anchor": "discover-gitlabs-volunteering-opportunities-with-givelab",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#discover-gitlabs-volunteering-opportunities-with-givelab",
+      "text": "GiveLab is GitLab’s Team Member Volunteer Program! Read more about how to get involved here ."
+    },
+    {
+      "section": "Time Off Types > GitLab Legal Civic Obligations Policy",
+      "anchor": "gitlab-legal-civic-obligations-policy",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#gitlab-legal-civic-obligations-policy",
+      "text": "This policy outlines GitLab’s approach to legal civic obligations. In locations where statutory laws mandate specific provisions, those legal requirements will supersede this policy."
+    },
+    {
+      "section": "Time Off Types > GitLab Legal Civic Obligations Policy > Overview",
+      "anchor": "overview-6",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#overview-6",
+      "text": "GitLab will provide leave for any active team member who receives an official summons or court order to participate in judicial, administrative, or quasi-judicial proceedings, including, but not limited to, serving as a juror or a witness and who must take time off of work because of it, provided the team member gives reasonable notice to the company of the requirement to appear in the proceeding and as required by applicable law."
+    },
+    {
+      "section": "Time Off Types > GitLab Legal Civic Obligations Policy > Eligibility & Entitlement",
+      "anchor": "eligibility--entitlement",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#eligibility--entitlement",
+      "text": "This benefit is available to all team members on their first day of work.\n\nTeam members on an authorized Leave for Legal Civic Obligations are eligible to pay for up to the equivalent of 25 full working days of such leave, unless otherwise provided by applicable law. Pay for this leave is not available for days when the team member otherwise would not be required to work, regardless of whether the applicable judicial body is in session. Pay for this leave is paid at the eligible team members usual rate of pay based on a regularly scheduled workday."
+    },
+    {
+      "section": "Time Off Types > GitLab Legal Civic Obligations Policy > Request Process",
+      "anchor": "request-process-2",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#request-process-2",
+      "text": "- Notify Your Manager : Inform your manager as soon as you receive a summons. Discuss the potential duration and impact on your work responsibilities.\n\n- Document in Workday : You can enter Jury Duty directly into the Workday app, or through the Workday Slack integration.\n\n- Select the day(s) you need to take > Click “Time-Off” > Click “Jury Duty” > Optional: add a comment > Click “Submit”\n\n- Documentation : Attach a copy of the summons to your entry, or email it to leaves@gitlab.com .\n\n- Create a Coverage Plan : Arrange appropriate coverage for your responsibilities, set expectations around communication during your absence, plan for your return to work\n\nWe realize in some cases a 30-day notice period may not be possible. In these situations, you should notify your manager as soon as possible and enter the dates in Workday when you can. Please note that for audit and compliance purposes, all team members are required to use Workday as the single source of truth to accurately track and communicate all time off."
+    },
+    {
+      "section": "Time Off Types > GitLab Legal Civic Obligations Policy > Required Documentation",
+      "anchor": "required-documentation",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#required-documentation",
+      "text": "A team member who has been summoned for a judicial proceeding is required to advise their supervisor of the summons or subpoena as soon as is practical after receiving it and to provide the supervisor with a copy of the summons or subpoena. No Legal Civic Proceeding Leave of Absence will be authorized until a copy of the summons is submitted."
+    },
+    {
+      "section": "Time Off Types > GitLab Legal Civic Obligations Policy > Pay while on Jury Duty",
+      "anchor": "pay-while-on-jury-duty",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#pay-while-on-jury-duty",
+      "text": "Eligible team members will receive 100% of their weekly wages through paid leave unless the absence for civil legal proceedings exceeds 25 working days. If the absence exceeds 25 working days, the Absence Management will review the case and follow-up with team members on an individual basis."
+    },
+    {
+      "section": "Time Off Types > GitLab Legal Civic Obligations Policy > Coordination with other Leaves",
+      "anchor": "coordination-with-other-leaves-1",
+      "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#coordination-with-other-leaves-1",
+      "text": "This paid leave will run concurrently with or be supplemented by other forms of job-protected or income-replacement leave, depending on eligibility as required by law where applicable."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "description": "Six separate development questions; no test-question tuning.",
+  "questions": [
+    {
+      "id": "C1",
+      "category": "development_supported",
+      "question": "Whose prior written approval is required for any facilitating payment?",
+      "expected_behavior": "answer",
+      "gold": [
+        {
+          "document_id": "anti-corruption",
+          "quote": "Any and all facilitating payments require prior written approval from the Chief Legal Officer."
+        }
+      ],
+      "reference_answer": "The Chief Legal Officer."
+    },
+    {
+      "id": "C2",
+      "category": "development_supported",
+      "question": "When must contractors complete New Hire Security Training?",
+      "expected_behavior": "answer",
+      "gold": [
+        {
+          "document_id": "security-training",
+          "quote": "New Hire Security Training is required to be completed by all GitLab Team Members and contractors/TSPs during their onboarding at GitLab."
+        }
+      ],
+      "reference_answer": "During onboarding."
+    },
+    {
+      "id": "C3",
+      "category": "development_supported",
+      "question": "Is labeling data mandatory under GitLab's Data Classification Standard?",
+      "expected_behavior": "answer",
+      "gold": [
+        {
+          "document_id": "data-classification",
+          "quote": "There is currently no internal requirement to label data according to this standard, however labels are encouraged."
+        }
+      ],
+      "reference_answer": "No internal requirement; labels are encouraged."
+    },
+    {
+      "id": "C4",
+      "category": "development_unsupported",
+      "question": "What is GitLab's reimbursement limit for installing home solar panels?",
+      "expected_behavior": "fallback",
+      "gold": [],
+      "reference_answer": "Not established in the selected corpus."
+    },
+    {
+      "id": "C5",
+      "category": "development_unsupported",
+      "question": "What is the office cafeteria menu for tomorrow?",
+      "expected_behavior": "fallback",
+      "gold": [],
+      "reference_answer": "Not established in the static remote-company policy corpus."
+    },
+    {
+      "id": "C6",
+      "category": "development_unsupported",
+      "question": "What interest rate does GitLab pay on employee cryptocurrency savings accounts?",
+      "expected_behavior": "fallback",
+      "gold": [],
+      "reference_answer": "No such savings-account rate in the selected corpus."
+    }
+  ]
+}

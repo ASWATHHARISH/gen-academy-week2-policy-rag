@@ -1,0 +1,54 @@
+{
+  "timestamp_utc": "2026-09-24T02:07:06.570641+00:00",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "collection_name": "gitlab_policy_bge_256",
+  "index_sha256": "2d8b12e5e6bae492536fe60be928fffa26cdb9e98a4b3096313274c0d4f2d697",
+  "development_sha256": "81d31dd8753580e9b3ca48afa73981fc6f8eb0e658783f103ee8545e59347810",
+  "retrieval_mode": "hybrid",
+  "gate_mode": "p1",
+  "threshold": 0.6567557859420776,
+  "method": "Minimum supported-development candidate maximum cosine minus a fixed 0.02 margin. Query-level relevance only; retain complementary top-five evidence.",
+  "supported_development_accepted": 3,
+  "supported_development_total": 3,
+  "unsupported_development_accepted": 2,
+  "unsupported_development_total": 3,
+  "limitation": "Acceptance is not proof of support. Unsupported topical questions can reach Gemini, which must abstain. No test-set scores used in this threshold calculation.",
+  "rows": [
+    {
+      "id": "C1",
+      "question": "Whose prior written approval is required for any facilitating payment?",
+      "expected_behavior": "answer",
+      "max_cosine": 0.6767557859420776
+    },
+    {
+      "id": "C2",
+      "question": "When must contractors complete New Hire Security Training?",
+      "expected_behavior": "answer",
+      "max_cosine": 0.815690279006958
+    },
+    {
+      "id": "C3",
+      "question": "Is labeling data mandatory under GitLab's Data Classification Standard?",
+      "expected_behavior": "answer",
+      "max_cosine": 0.9047883749008179
+    },
+    {
+      "id": "C4",
+      "question": "What is GitLab's reimbursement limit for installing home solar panels?",
+      "expected_behavior": "fallback",
+      "max_cosine": 0.7631233930587769
+    },
+    {
+      "id": "C5",
+      "question": "What is the office cafeteria menu for tomorrow?",
+      "expected_behavior": "fallback",
+      "max_cosine": 0.5796399116516113
+    },
+    {
+      "id": "C6",
+      "question": "What interest rate does GitLab pay on employee cryptocurrency savings accounts?",
+      "expected_behavior": "fallback",
+      "max_cosine": 0.7236425876617432
+    }
+  ]
+}

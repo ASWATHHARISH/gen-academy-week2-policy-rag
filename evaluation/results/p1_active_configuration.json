@@ -1,0 +1,28 @@
+{
+  "profile": "256",
+  "retrieval": "hybrid",
+  "gate": "p1",
+  "automatic_development_selector": {
+    "profile": "256",
+    "retrieval": "dense"
+  },
+  "decision": "Explicit product-mode choice to deliver the user-approved hybrid feature, not the overall automatic cost-tie-break winner. Within the hybrid family, 256/48 and 384/64 tie on development retrieval quality; 256/48 uses fewer development context tokens.",
+  "parameters": {
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "rrf_k": 60,
+    "dense_candidates": 10,
+    "sparse_candidates": 10,
+    "evidence_passages": 5,
+    "chunk_tokens": 256,
+    "overlap_tokens": 48
+  },
+  "development_context_tokens": {
+    "dense_256": 660.3333333333334,
+    "hybrid_256": 734.3333333333334,
+    "hybrid_384": 849.3333333333334
+  },
+  "calibration": "calibration_p1_256.json",
+  "baseline_preserved": true,
+  "evaluation_note": "Same frozen 15 questions are a diagnostic regression set after inspecting P0 failures, not new held-out evidence."
+}

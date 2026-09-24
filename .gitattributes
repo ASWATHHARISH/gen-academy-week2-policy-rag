@@ -1,0 +1,8 @@
+* text=auto
+# Keep frozen corpus/evaluation bytes identical across Windows and Linux.
+*.json -text
+*.jsonl -text
+*.html -text
+*.png binary
+*.wav binary
+*.mp4 binary

@@ -1,0 +1,65 @@
+{
+  "document_id": "physical-security",
+  "title": "Physical Security Standard for Company Assets",
+  "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/",
+  "category": "IT/security",
+  "snapshot_date": "2026-09-23T18:18:00.341466+00:00",
+  "sha256": "d585aaadc3472d12c0d11f8868a992aab36636f694ab76645cc90d95ebbdb766",
+  "license": "CC BY-SA 4.0",
+  "sections": [
+    {
+      "section": "Physical Security Standard for Company Assets > Tags:",
+      "anchor": "",
+      "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/",
+      "text": "- Security_standard\n\n- Security_standard_pe"
+    },
+    {
+      "section": "Physical Security Standard for Company Assets > Purpose",
+      "anchor": "purpose",
+      "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/#purpose",
+      "text": "This document defines asset management measures and requirements to support the protection of information assets in GitLab’s all remote environment. The measures and requirements noted within the standard are designed to create a secure infrastructure, work environment, and protect sensitive information from physical threats."
+    },
+    {
+      "section": "Physical Security Standard for Company Assets > Scope",
+      "anchor": "scope",
+      "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/#scope",
+      "text": "This standard applies to all GitLab team-members, contractors, advisors, and contracted parties interacting with GitLab computing resources and accessing company or customer data."
+    },
+    {
+      "section": "Physical Security Standard for Company Assets > Roles & Responsibilities",
+      "anchor": "roles--responsibilities",
+      "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/#roles--responsibilities",
+      "text": "Role: Security Assurance | Responsibility: Responsible for implementing and executing this standard\n\nRole: Security Assurance Management (Code Owners) | Responsibility: Responsible for approving significant changes and exceptions to this standard\n\nRole: Team Members, Contractors, Advisors, Contracting Parties | Responsibility: Responsible for adhering to the ‘Physical Devices and Location’ requirements of this standard"
+    },
+    {
+      "section": "Physical Security Standard for Company Assets > Overview",
+      "anchor": "overview",
+      "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/#overview",
+      "text": "As an all remote company, physical protection of information assets can be broken out into a defined “security zone”. Security zones are defined as requirements for the handling of information assets in their physical location.\n\nGitLab has two distinct security zones:"
+    },
+    {
+      "section": "Physical Security Standard for Company Assets > Overview > Infrastructure (for SaaS products)",
+      "anchor": "infrastructure-for-saas-products",
+      "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/#infrastructure-for-saas-products",
+      "text": "- Hosted and physically secured by third party service provider(s)\n\n- Shared responsibility model\n\n- Adherence to physical security requirements reviewed annually as part of the Third Party Risk Management (TPRM) review and Complementary User Entity Controls (CUEC) review. This includes confirmation that independent third parties attest to effective physical security procedures including but not limited to:\n\n- Visitor Management\n\n- Premises Protection\n\n- Environmental Securities\n\n- Access Management"
+    },
+    {
+      "section": "Physical Security Standard for Company Assets > Overview > Physical Devices and Location",
+      "anchor": "physical-devices-and-location",
+      "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/#physical-devices-and-location",
+      "text": "- Laptops are protected through Endpoint Management Procedures and secured through system configurations defined in the IT Security - System Configurations handbook page which include, but are not limited to:\n\n- Passwords\n\n- Screen timeout\n\n- Encryption\n\n- Endpoint detection and response\n\n- GitLab implements a Zero Trust architecture that complements physical security measures by requiring authentication and authorization for all resource access, regardless of device location.\n\n- Implement Clear Desk/Clear Screen requirements.\n\n- Ensure devices are not left unattended in public areas and are locked when not in use. Activate a screensaver with password lock, lock the desktop, close the lid .\n\n- Personal mobile phone and tablet usage must be passcode protected .\n\n- Sensitive data should not be stored on removable storage devices, such as USB drives or external hard drives. External storage devices on company assets is not sanctioned .\n\n- Printing documents containing sensitive information as defined by the Data Classification Standard is prohibited.\n\n- Secure your data during travel ensuring that you are in a secure place and no-one can hear you when you are talking about restricted data, and locking your device when it is not in use.\n\n- Do not bring company-owned devices to embargoed countries without consulting the Legal Department."
+    },
+    {
+      "section": "Physical Security Standard for Company Assets > Exceptions",
+      "anchor": "exceptions",
+      "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/#exceptions",
+      "text": "Exceptions to this procedure will be tracked as per the Information Security Policy Exception Management Process ."
+    },
+    {
+      "section": "Physical Security Standard for Company Assets > References",
+      "anchor": "references",
+      "section_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/#references",
+      "text": "- Internal Acceptable Use Policy\n\n- IT Security System Configuration\n\n- Information Security Management System"
+    }
+  ]
+}

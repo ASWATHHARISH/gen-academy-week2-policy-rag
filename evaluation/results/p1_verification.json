@@ -1,0 +1,75 @@
+{
+  "verified_at_utc": "2026-09-24 02:18:39 UTC",
+  "active_profile": {
+    "retrieval": "hybrid",
+    "chunk_tokens": 256,
+    "overlap_tokens": 48,
+    "collection": "gitlab_policy_bge_256",
+    "gate": "p1",
+    "threshold": 0.6567557859420776
+  },
+  "offline_tests": {
+    "passed": 90,
+    "failed": 0,
+    "duration_seconds": 6.99
+  },
+  "dependency_check": "No broken requirements found; no new packages installed for P1.",
+  "syntax_check": "compileall passed",
+  "retrieval_comparison": {
+    "dense_384_hit_at_5": 0.7777777777777778,
+    "hybrid_384_hit_at_5": 0.8888888888888888,
+    "dense_256_hit_at_5": 0.7777777777777778,
+    "hybrid_256_hit_at_5": 0.8888888888888888,
+    "denominator_answerable_questions": 9,
+    "automatic_development_choice": "256/dense",
+    "delivered_choice": "256/hybrid: explicit user-feature/product preference; lowest development context cost within hybrid family."
+  },
+  "first_live_p1_run": {
+    "answered_supported": 8,
+    "answerable": 9,
+    "false_refusals": 1,
+    "correct_expected_fallbacks": 5,
+    "expected_fallbacks": 6,
+    "unexpected_answer": "B1: quoted company benefits as response to personal legal-entitlement question.",
+    "service_errors": 0,
+    "api_attempts": 13,
+    "report": "p1_hybrid_256_evaluation.json"
+  },
+  "post_run_corrections": {
+    "legal_scope": "B1 plus three paraphrases now refused before retrieval/generation; four targeted checks, zero additional API calls.",
+    "selected_evidence_gate": "Threshold now checked only on actual deduplicated top5; all six development scores and original released-answer gate outcomes unchanged.",
+    "verification": "p1_corrections_verification.json",
+    "limitation": "No second complete live 15-question run; original regression remains visible."
+  },
+  "live_ui": {
+    "supported": "F1 answered Workday with source citation",
+    "legal_scope": "B1 fallback before API",
+    "rerenders_added_no_attempts": true,
+    "report": "p1_ui_smoke.json",
+    "method": "Real Streamlit AppTest; no browser pixel inspection claimed."
+  },
+  "api_budget": {
+    "total_used": 23,
+    "limit": 30,
+    "remaining": 7,
+    "more_calls_planned": false
+  },
+  "server": {
+    "url": "http://127.0.0.1:8501",
+    "health": "ok"
+  },
+  "preserved_p0_sha256": {
+    "data/processed/chunks.jsonl": "95aec3f81837a20be1ae5d5940b9b2c6a2cf14cfd76f11b14feb7fe5255864f0",
+    "data/processed/index_manifest.json": "6de28a65523d68fc6c2a8d82447b883d2156138ad2ea65c9937b88dfa6bc696d",
+    "evaluation/results/dense_evaluation.json": "8bbcd1061518109dc3f9c8c552af45777a7d1dde51e74ada9ebbd4f8161b2b24",
+    "evaluation/results/calibration.json": "6c8ba5f35a244db70ed31252fdee711db3344aa31327a07b2a4d86ea4a961b16",
+    "artifacts/enterprise-policy-rag-source.zip": "480e62f0b9b99fd55d2541a11575ed7ae9f32b11de0080c0970dc5ed1056673d"
+  },
+  "human_review": "Pending; p1_evidence_review.json is AI-assisted, not human scoring.",
+  "limitations": [
+    "Cafe/unattended-laptop paraphrase still refused.",
+    "Legal-scope patterns are deliberately conservative and not a complete semantic classifier.",
+    "P1 measurements reuse known P0 questions as a regression set, not fresh held-out evaluation.",
+    "No reranker, deployment, recording or TTS performed."
+  ]
+}

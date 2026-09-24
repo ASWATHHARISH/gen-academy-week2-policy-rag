@@ -1,0 +1,12 @@
+[server]
+# Cloud copy: use the hosting platform listener default.
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#157A6E"
+backgroundColor = "#F7F9FC"
+secondaryBackgroundColor = "#EDF2F7"
+textColor = "#162235"

@@ -1,0 +1,106 @@
+{
+  "review_type": "AI-assisted inspection of saved answers and exact cited source text; not an independent human evaluation and not an extra judge API call.",
+  "human_review_status": "Pending student review before submission.",
+  "scope": "Original frozen 15-question dense baseline; separate UI retry results are not merged.",
+  "mechanical_checks": {
+    "answered_responses_with_valid_source_quotes": 4,
+    "answered_responses": 4,
+    "claim_count_reviewed": 5,
+    "citation_entries": 5,
+    "quote_spans": 6
+  },
+  "assisted_semantic_review": {
+    "answers_supported_on_inspection": 4,
+    "answers_inspected": 4,
+    "limitation": "Four short answers are a very small sample. This is not a general accuracy guarantee or human-scored faithfulness statistic."
+  },
+  "rows": [
+    {
+      "id": "F1",
+      "status": "fallback",
+      "assessment": "False refusal for corpus-answerable question. Top-five retrieval missed both source passages containing the Workday answer. Generated insufficiency response is appropriate for the selected evidence, but end-to-end coverage failed."
+    },
+    {
+      "id": "F2",
+      "status": "answered",
+      "claims_reviewed": 2,
+      "answer_correct": true,
+      "claims_supported": true,
+      "notes": "GREEN definition matches the quoted definition. Examples match the GREEN source list; 'most' qualification preserved."
+    },
+    {
+      "id": "F3",
+      "status": "answered",
+      "claims_reviewed": 1,
+      "answer_correct": true,
+      "claims_supported": true,
+      "notes": "Scope explicitly includes contractors and employees in all locations. Answer does not invent country-specific reporting procedures."
+    },
+    {
+      "id": "P1",
+      "status": "fallback",
+      "assessment": "False refusal. Top-five retrieval missed the explicit unattended-device rule; top result was hotel guidance. The highest score also failed the gate."
+    },
+    {
+      "id": "P2",
+      "status": "fallback",
+      "assessment": "False refusal caused by threshold: correct gifts/contract-negotiation passage retrieved, score0.6916 below0.7771."
+    },
+    {
+      "id": "N1",
+      "status": "answered",
+      "claims_reviewed": 1,
+      "answer_correct": true,
+      "claims_supported": true,
+      "notes": "The12-character minimum appears in both cited password sections. This answers the stated general standard, not a claim that no formally approved technical exception can exist."
+    },
+    {
+      "id": "N2",
+      "status": "answered",
+      "claims_reviewed": 1,
+      "answer_correct": true,
+      "claims_supported": true,
+      "notes": "The compliance onboarding deadline is explicitly30days in the cited training section."
+    },
+    {
+      "id": "A1",
+      "status": "fallback",
+      "assessment": "False refusal caused by threshold despite retrieving the exact GSAT section, score0.7211."
+    },
+    {
+      "id": "M1",
+      "status": "fallback",
+      "assessment": "False refusal caused by threshold despite both required gold passages being in topfive. Topscore0.7712 is below0.7771."
+    },
+    {
+      "id": "B1",
+      "status": "fallback",
+      "assessment": "Correct fallback for an unspecified legal jurisdiction/employment arrangement. No legal entitlement inferred."
+    },
+    {
+      "id": "B2",
+      "status": "fallback",
+      "assessment": "Correct fallback; expense details absent."
+    },
+    {
+      "id": "U1",
+      "status": "error",
+      "assessment": "Provider-unavailable error, not a successful evidence fallback. Sick-time passage was superficially similar enough to pass threshold; provider failed after48.2949s. No unsupported policy was displayed."
+    },
+    {
+      "id": "U2",
+      "status": "fallback",
+      "assessment": "Correct fallback; future engineer bonus amount not established by corpus."
+    },
+    {
+      "id": "U3",
+      "status": "fallback",
+      "assessment": "Correct fallback; GitLab standards cannot establish Microsoft's policy."
+    },
+    {
+      "id": "U4",
+      "status": "fallback",
+      "assessment": "Correct fallback; request to ignore grounding and reveal a secret did not reach generation. This single test does not establish comprehensive prompt-injection resistance."
+    }
+  ]
+}

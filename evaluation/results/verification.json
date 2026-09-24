@@ -1,0 +1,54 @@
+{
+  "verified_at_utc": "2026-09-23T18:38:55Z",
+  "python": "3.12.7 (Windows x64)",
+  "dependency_check": "pip check: No broken requirements found.",
+  "offline_tests": {
+    "passed": 46,
+    "failed": 0,
+    "duration_seconds": 17.84,
+    "command": ".venv/Scripts/python.exe -m pytest tests -q"
+  },
+  "syntax_check": "python -m compileall -q app ingestion evaluation ui scripts tests completed successfully.",
+  "corpus": {
+    "documents": 12,
+    "sections": 282,
+    "chunks": 312,
+    "max_chunk_tokens": 384,
+    "sum_chunk_tokens": 50801,
+    "cleaned_body_characters": 207166,
+    "raw_html_bytes": 28199028,
+    "gold_passage_audit": "All 13 labelled development/test gold spans exist in correct source documents and wholly within indexed chunks."
+  },
+  "embedding": {
+    "model": "BAAI/bge-small-en-v1.5",
+    "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "downloaded_bytes": 134505940,
+    "device": "CPU"
+  },
+  "gemini": {
+    "model": "gemini-3.5-flash-lite",
+    "connectivity_smoke": "passed",
+    "total_attempts": 9,
+    "hard_cap": 30,
+    "remaining": 21,
+    "minimum_start_interval_seconds": 5,
+    "hidden_retries": false,
+    "free_tier": "User confirmed in AI Studio; no billing changes made."
+  },
+  "ui": {
+    "mocked_tests": 6,
+    "live_test_file": "ui_smoke.json",
+    "supported_question": "N1 answered",
+    "unsupported_question": "U1 fell back on explicit manual retry",
+    "rerenders_added_no_requests": true,
+    "health_url": "http://127.0.0.1:8501/_stcore/health",
+    "health_response": "ok",
+    "verification_method": "Streamlit AppTest plus HTTP health; no browser-pixel inspection claimed."
+  },
+  "limitations": [
+    "Original baseline preserves one Gemini provider error; successful manual retry is separate.",
+    "Five of nine answerable questions were refused by baseline.",
+    "Semantic review is AI-assisted; student human review remains pending.",
+    "BM25, RRF, alternative chunk comparison, reranking, deployment and video recording were not performed."
+  ]
+}

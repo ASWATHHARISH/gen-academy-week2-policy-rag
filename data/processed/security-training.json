@@ -1,0 +1,89 @@
+{
+  "document_id": "security-training",
+  "title": "Security Awareness Training Standard",
+  "source_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/",
+  "category": "IT/security",
+  "snapshot_date": "2026-09-23T18:17:56.740637+00:00",
+  "sha256": "d3af8eac2f65e6939b9f6d39dc5745661dd3bb6b56e8662980507a3633bda3ed",
+  "license": "CC BY-SA 4.0",
+  "sections": [
+    {
+      "section": "Security Awareness Training Standard > Tags:",
+      "anchor": "",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/",
+      "text": "- Security_standard\n\n- Security_standard_at"
+    },
+    {
+      "section": "Security Awareness Training Standard > Purpose",
+      "anchor": "purpose",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#purpose",
+      "text": "Security Trainings and Awareness is key to ensuring that GitLab team members are continuously provided with user education activities and exercises about evolving threats, compliance obligations, and secure workplace practices in order to refine and improve their awareness."
+    },
+    {
+      "section": "Security Awareness Training Standard > Scope",
+      "anchor": "scope",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#scope",
+      "text": "This standard applies to all GitLab team members, contractors/Temporary Service Providers (TSPs), consultants, vendors and other service providers that handle, manage, store or transmit GitLab data in support of GitLab’s statutory, regulatory and contractual requirements."
+    },
+    {
+      "section": "Security Awareness Training Standard > Scope > Definitions",
+      "anchor": "definitions",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#definitions",
+      "text": "- GitLab Team members: users with a gitlab.com email address\n\n- Contractors/TSPs and Consultants: Personnel who are external to GitLab who do not have a gitlab.com email address and are under a contract/agreement that involves handling, managing, storing, or transmitting GitLab data in support of GitLab’s statutory, regulatory and contractual requirements."
+    },
+    {
+      "section": "Security Awareness Training Standard > Roles & Responsibilities",
+      "anchor": "roles--responsibilities",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#roles--responsibilities",
+      "text": "Role: GitLab Team Members | Responsibilities: Responsible for following the requirements of this standard\n\nRole: Security Governance Team | Responsibilities: Responsible for the management and execution of security trainings and programs outlined in this standard\n\nRole: Security Governance Management | Responsibilities: Responsible for oversight, escalation and approval of exceptions for this standard\n\nRole: Security Assurance Management (Code Owners) | Responsibilities: Responsible for approving significant changes and exceptions to this standard"
+    },
+    {
+      "section": "Security Awareness Training Standard > Standard",
+      "anchor": "standard",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#standard",
+      "text": "All GitLab Team members and contractors/TSPs are required to participate in GitLab’s General Security Awareness Training, New Hire Training and on-going phishing simulations and training, or show evidence of equivalent training completion within the calendar year. Security Trainings that require participation include the following:"
+    },
+    {
+      "section": "Security Awareness Training Standard > Standard > New Hire Security Training",
+      "anchor": "new-hire-security-training",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#new-hire-security-training",
+      "text": "New Hire Security Training is required to be completed by all GitLab Team Members and contractors/TSPs during their onboarding at GitLab. This security training provides new hires with the knowledge to identify cybersecurity threats, vulnerabilities, and attacks."
+    },
+    {
+      "section": "Security Awareness Training Standard > Standard > General Security Awareness Training (GSAT)",
+      "anchor": "general-security-awareness-training-gsat",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#general-security-awareness-training-gsat",
+      "text": "The GitLab security awareness training program provides ongoing training to GitLab team members that enhances knowledge and identification of cybersecurity threats, vulnerabilities, and attacks as well as satisfying external regulatory requirements. GitLab’s handbook-first General Security Awareness Training is provided annually via Right Hand Cybersecurity, GitLab’s third-party provider, and requires participation and completion by all GitLab Team Members and contractors/TSPs.\n\nExceptions during the active campaign will be made for GitLab team members on extended leave."
+    },
+    {
+      "section": "Security Awareness Training Standard > Standard > Phishing Training",
+      "anchor": "phishing-training",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#phishing-training",
+      "text": "The GitLab Phishing Training Program is designed to educate and evaluate GitLab’s ability to detect and prevent phishing attempts. Ongoing phishing simulations and trainings are conducted once per quarter via Right Hand Cybersecurity, GitLab’s third-party provider, and requires participation and completion by all assigned GitLab Team Members and contractors/TSPs.\n\nRemember: If you see something, say something, and always report suspicious emails via PhishArm ."
+    },
+    {
+      "section": "Security Awareness Training Standard > Standard > Secure Coding Training",
+      "anchor": "secure-coding-training",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#secure-coding-training",
+      "text": "The GitLab Secure Coding Training is a required training completed by a sub-group of GitLab Team Members and contractors/TSPs in the Engineering Department. This training contains descriptions and Secure Coding Guidelines from OWASP (Open Web Application Security Project) addressing security vulnerabilities commonly identified in the GitLab codebase. This training is intended to help developers identify potential security vulnerabilities early, with the goal of reducing the number of vulnerabilities released over time.\n\nExceptions during the active campaign will be made for GitLab team members on extended leave."
+    },
+    {
+      "section": "Security Awareness Training Standard > Standard > Other Security Trainings",
+      "anchor": "other-security-trainings",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#other-security-trainings",
+      "text": "As our Security Training Program matures, additional trainings will be identified and added."
+    },
+    {
+      "section": "Security Awareness Training Standard > Exceptions",
+      "anchor": "exceptions",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#exceptions",
+      "text": "Exceptions to this procedure will be tracked as per the Information Security Policy Exception Management Process ."
+    },
+    {
+      "section": "Security Awareness Training Standard > References",
+      "anchor": "references",
+      "section_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/#references",
+      "text": "- Security Awareness Training Program\n\n- Phishing Program\n\n- Data Classification Standard"
+    }
+  ]
+}

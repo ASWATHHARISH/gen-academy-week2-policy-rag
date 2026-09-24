@@ -1,0 +1,229 @@
+{
+  "timestamp_utc": "2026-09-24T02:15:58.599024+00:00",
+  "method": "Real Streamlit AppTest with real graph, local retrieval and Gemini; not a browser screenshot.",
+  "note": "Separate live UI verification; original 15-question evaluation unchanged.",
+  "retrieval_mode": "hybrid",
+  "gate_mode": "p1",
+  "chunk_tokens": 256,
+  "api_attempts_before": 22,
+  "api_attempts_after": 23,
+  "rows": [
+    {
+      "id": "F1",
+      "question": "Where must GitLab team members log their time away?",
+      "response": {
+        "query": "Where must GitLab team members log their time away?",
+        "status": "answered",
+        "answer": "All GitLab team members are required to log their time away in Workday. [1](https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#how-to-enter-public-holidays-in-workday)",
+        "citations": [
+          {
+            "number": 1,
+            "chunk_id": "a8680ead70a56cfbc0918f21",
+            "document_id": "time-off-types",
+            "title": "Time Off Types",
+            "url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#how-to-enter-public-holidays-in-workday",
+            "source_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+            "section": "Time Off Types > Public Holiday > How to Enter Public Holidays in Workday",
+            "snapshot_date": "2026-09-23T18:17:34.967460+00:00",
+            "quotes": [
+              "Important : All team members must log their time away in Workday."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "id": "ab26d95bd4396126497b5992",
+            "text": "Document: Time Off Types\nSection: Time Off Types > Sick Time\n\nThis policy outlines GitLab’s approach to sick time for all team members. It is designed to complement, not replace, any statutory sick leave policies you may be eligible for in your country of residence. Team members are encouraged to familiarize themselves with their location’s statutory reporting requirements and entitlements in their respective handbook sections .",
+            "metadata": {
+              "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#sick-time",
+              "overlap_tokens": 48,
+              "source_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+              "license": "CC BY-SA 4.0",
+              "section_index": 11,
+              "anchor": "sick-time",
+              "chunk_index": 13,
+              "section": "Time Off Types > Sick Time",
+              "token_count": 84,
+              "sha256": "e73b1902cce200c3f1e8ffd201349aa56a7354f24cf4d286c9a19449561b8f12",
+              "body_char_start": 0,
+              "snapshot_date": "2026-09-23T18:17:34.967460+00:00",
+              "chunk_tokens": 256,
+              "title": "Time Off Types",
+              "category": "HR",
+              "body_char_end": 370,
+              "chunk_id": "ab26d95bd4396126497b5992",
+              "document_id": "time-off-types"
+            },
+            "score": 0.7686498761177063,
+            "rrf_score": 0.02967032967032967,
+            "dense_rank": 5,
+            "sparse_rank": 10,
+            "dense_score": 0.7686498761177063,
+            "bm25_score": 8.038901143740974
+          },
+          {
+            "id": "448422edc0dc527f4ee3e393",
+            "text": "Document: Time Off Types\nSection: Time Off Types > Flexible Paid Time Off (PTO) > Overview\n\nGitLab offers a Flexible PTO policy that empowers team members to take the time they need while ensuring business continuity. This policy reflects our values of transparency, collaboration, and GitLab’s overall Philosophy to Time Away from Work .\n\n- Our Flexible PTO policy means that as long as you have coordinated with your manager about your planned time off and made a coverage plan, you are free to take PTO.\n\n- GitLab does not set a specific limit on the amount of PTO a team member can take per year. However, for time off exceeding 25 consecutive calendar days (including weekends and holidays), special permission is required from your Manager, People Business Partner, and the Absence Management Team at leaves@gitlab.com .\n\n- All team members are encouraged to take adequate time off to recharge.\n\n- Team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental-health-related, please follow our Sick Time Policy .\n\n- We strongly recommend taking at least two consecutive weeks of time off and at minimum 25 days total throughout the year.",
+            "metadata": {
+              "token_count": 256,
+              "snapshot_date": "2026-09-23T18:17:34.967460+00:00",
+              "overlap_tokens": 48,
+              "chunk_index": 2,
+              "chunk_tokens": 256,
+              "section_index": 2,
+              "chunk_id": "448422edc0dc527f4ee3e393",
+              "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#overview",
+              "title": "Time Off Types",
+              "license": "CC BY-SA 4.0",
+              "source_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+              "category": "HR",
+              "document_id": "time-off-types",
+              "body_char_start": 0,
+              "anchor": "overview",
+              "body_char_end": 1129,
+              "sha256": "e73b1902cce200c3f1e8ffd201349aa56a7354f24cf4d286c9a19449561b8f12",
+              "section": "Time Off Types > Flexible Paid Time Off (PTO) > Overview"
+            },
+            "score": 0.7661283612251282,
+            "rrf_score": 0.02964426877470356,
+            "dense_rank": 6,
+            "sparse_rank": 9,
+            "dense_score": 0.7661283612251282,
+            "bm25_score": 8.294788339544017
+          },
+          {
+            "id": "9c910983f15d17acece9aa27",
+            "text": "Document: Time Off Types\nSection: Time Off Types > Volunteer > Overview\n\nGitLab encourages team members to volunteer within their community to take care of others. Volunteer time-off at GitLab falls under our Flexible PTO framework, allowing team members to take time off to support causes that matter to you and your personal commitment to GitLab’s values such as diversity, inclusion and belonging.",
+            "metadata": {
+              "chunk_index": 39,
+              "body_char_start": 0,
+              "chunk_id": "9c910983f15d17acece9aa27",
+              "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#overview-5",
+              "anchor": "overview-5",
+              "category": "HR",
+              "sha256": "e73b1902cce200c3f1e8ffd201349aa56a7354f24cf4d286c9a19449561b8f12",
+              "document_id": "time-off-types",
+              "source_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+              "title": "Time Off Types",
+              "license": "CC BY-SA 4.0",
+              "section_index": 33,
+              "chunk_tokens": 256,
+              "section": "Time Off Types > Volunteer > Overview",
+              "overlap_tokens": 48,
+              "snapshot_date": "2026-09-23T18:17:34.967460+00:00",
+              "token_count": 82,
+              "body_char_end": 327
+            },
+            "score": 0.8055039644241333,
+            "rrf_score": 0.01639344262295082,
+            "dense_rank": 1,
+            "sparse_rank": null,
+            "dense_score": 0.8055039644241333,
+            "bm25_score": 7.76352019877937
+          },
+          {
+            "id": "a8680ead70a56cfbc0918f21",
+            "text": "Document: Time Off Types\nSection: Time Off Types > Public Holiday > How to Enter Public Holidays in Workday\n\n- You can enter Public Holidays directly into the Workday app, or through the Workday Slack integration.\n\n- Select the day(s) you wish to observe as a public holiday > Click “Time-Off” > Click “Public Holiday” > Optional: add a comment > Click “Submit”\n\nImportant : All team members must log their time away in Workday. To read more about Workday, please refer to: Workday: Single Source of Truth for Absence .",
+            "metadata": {
+              "document_id": "time-off-types",
+              "title": "Time Off Types",
+              "source_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+              "snapshot_date": "2026-09-23T18:17:34.967460+00:00",
+              "sha256": "e73b1902cce200c3f1e8ffd201349aa56a7354f24cf4d286c9a19449561b8f12",
+              "license": "CC BY-SA 4.0",
+              "section": "Time Off Types > Public Holiday > How to Enter Public Holidays in Workday",
+              "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#how-to-enter-public-holidays-in-workday",
+              "anchor": "how-to-enter-public-holidays-in-workday",
+              "section_index": 9,
+              "category": "HR",
+              "chunk_index": 10,
+              "chunk_id": "a8680ead70a56cfbc0918f21",
+              "chunk_tokens": 256,
+              "overlap_tokens": 48,
+              "token_count": 119,
+              "body_char_start": 0,
+              "body_char_end": 410
+            },
+            "bm25_score": 15.85278865710369,
+            "score": 0.6366080563625643,
+            "rrf_score": 0.01639344262295082,
+            "dense_rank": null,
+            "sparse_rank": 1,
+            "dense_score": 0.6366080563625643
+          },
+          {
+            "id": "2353c319f4558c33a63a98e4",
+            "text": "Document: Time Off Types\nSection: Time Off Types > GitLab Legal Civic Obligations Policy > Overview\n\nGitLab will provide leave for any active team member who receives an official summons or court order to participate in judicial, administrative, or quasi-judicial proceedings, including, but not limited to, serving as a juror or a witness and who must take time off of work because of it, provided the team member gives reasonable notice to the company of the requirement to appear in the proceeding and as required by applicable law.",
+            "metadata": {
+              "token_count": 106,
+              "body_char_end": 434,
+              "snapshot_date": "2026-09-23T18:17:34.967460+00:00",
+              "body_char_start": 0,
+              "category": "HR",
+              "overlap_tokens": 48,
+              "section": "Time Off Types > GitLab Legal Civic Obligations Policy > Overview",
+              "anchor": "overview-6",
+              "chunk_tokens": 256,
+              "document_id": "time-off-types",
+              "sha256": "e73b1902cce200c3f1e8ffd201349aa56a7354f24cf4d286c9a19449561b8f12",
+              "section_index": 37,
+              "license": "CC BY-SA 4.0",
+              "title": "Time Off Types",
+              "source_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+              "section_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#overview-6",
+              "chunk_index": 43,
+              "chunk_id": "2353c319f4558c33a63a98e4"
+            },
+            "score": 0.7875838279724121,
+            "rrf_score": 0.016129032258064516,
+            "dense_rank": 2,
+            "sparse_rank": null,
+            "dense_score": 0.7875838279724121,
+            "bm25_score": 6.155603676290152
+          }
+        ],
+        "reason": "",
+        "latency_seconds": 22.4903,
+        "trace": [
+          "validate_question",
+          "retrieve_hybrid_rrf",
+          "evidence_gate",
+          "grounded_generation",
+          "validate_citations"
+        ],
+        "api_called": true,
+        "threshold": 0.6567557859420776
+      },
+      "rerender_added_no_api_attempt": true,
+      "ui_success": [
+        "Answer with validated source references"
+      ],
+      "ui_info": [],
+      "ui_error": []
+    },
+    {
+      "id": "B1",
+      "question": "How many paid sick days am I legally entitled to?",
+      "response": {
+        "query": "How many paid sick days am I legally entitled to?",
+        "status": "fallback",
+        "answer": "I can't determine personal legal entitlements from this company-policy snapshot. Please check the applicable jurisdiction and employment terms with HR or qualified counsel.",
+        "citations": [],
+        "evidence": [],
+        "reason": "personal_legal_entitlement_out_of_scope",
+        "latency_seconds": 0.0158,
+        "trace": [
+          "validate_question",
+          "fallback"
+        ],
+        "api_called": false
+      },
+      "rerender_added_no_api_attempt": true,
+      "ui_success": [],
+      "ui_info": [
+        "The available evidence is insufficient for a supported answer."
+      ],
+      "ui_error": []
+    }
+  ]
+}

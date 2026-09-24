@@ -1,0 +1,51 @@
+{
+  "timestamp_utc": "2026-09-23T18:25:51.311740+00:00",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "collection_name": "gitlab_policy_bge_384",
+  "index_sha256": "95aec3f81837a20be1ae5d5940b9b2c6a2cf14cfd76f11b14feb7fe5255864f0",
+  "threshold": 0.777080996131897,
+  "method": "Minimum threshold above all unsupported development-query top scores; no test-set tuning.",
+  "supported_development_accepted": 2,
+  "supported_development_total": 3,
+  "unsupported_development_accepted": 0,
+  "unsupported_development_total": 3,
+  "limitation": "Small calibration set. Similarity gates relevance, not factual support or probability of correctness.",
+  "rows": [
+    {
+      "id": "C1",
+      "question": "Whose prior written approval is required for any facilitating payment?",
+      "expected_behavior": "answer",
+      "top_score": 0.6780576109886169
+    },
+    {
+      "id": "C2",
+      "question": "When must contractors complete New Hire Security Training?",
+      "expected_behavior": "answer",
+      "top_score": 0.815690279006958
+    },
+    {
+      "id": "C3",
+      "question": "Is labeling data mandatory under GitLab's Data Classification Standard?",
+      "expected_behavior": "answer",
+      "top_score": 0.9047883749008179
+    },
+    {
+      "id": "C4",
+      "question": "What is GitLab's reimbursement limit for installing home solar panels?",
+      "expected_behavior": "fallback",
+      "top_score": 0.776980996131897
+    },
+    {
+      "id": "C5",
+      "question": "What is the office cafeteria menu for tomorrow?",
+      "expected_behavior": "fallback",
+      "top_score": 0.5653935670852661
+    },
+    {
+      "id": "C6",
+      "question": "What interest rate does GitLab pay on employee cryptocurrency savings accounts?",
+      "expected_behavior": "fallback",
+      "top_score": 0.7156427502632141
+    }
+  ]
+}

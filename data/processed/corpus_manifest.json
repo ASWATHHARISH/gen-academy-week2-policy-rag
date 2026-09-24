@@ -1,0 +1,94 @@
+{
+  "corpus_name": "GitLab public-policy demonstration corpus",
+  "publisher": "GitLab and handbook contributors",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_url": "https://handbook.gitlab.com/handbook/about/handbook-usage/#external-use-of-the-handbook",
+  "modifications": "Article bodies extracted, navigation removed, whitespace normalized, table headers repeated, and text split into heading-aware chunks. Adapted corpus content remains CC BY-SA 4.0.",
+  "documents": [
+    {
+      "document_id": "time-off-types",
+      "title": "Time Off Types",
+      "source_url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+      "sha256": "e73b1902cce200c3f1e8ffd201349aa56a7354f24cf4d286c9a19449561b8f12",
+      "snapshot_date": "2026-09-23T18:17:34.967460+00:00"
+    },
+    {
+      "document_id": "anti-harassment",
+      "title": "Anti-Harassment Policy",
+      "source_url": "https://handbook.gitlab.com/handbook/people-group/anti-harassment/",
+      "sha256": "c45ced59ef7ec7837158ceca9d650048523ba5b70c0db7cc89f62e37feda0785",
+      "snapshot_date": "2026-09-23T18:17:41.398992+00:00"
+    },
+    {
+      "document_id": "general-onboarding",
+      "title": "GitLab Onboarding",
+      "source_url": "https://handbook.gitlab.com/handbook/people-group/general-onboarding/",
+      "sha256": "d1b4a886ec7714ed91f46f4ac9c349ce8dee87a3a41977a13d133b74df0f50d3",
+      "snapshot_date": "2026-09-23T18:17:44.904297+00:00"
+    },
+    {
+      "document_id": "password-standard",
+      "title": "Password Standards",
+      "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/password-standard/",
+      "sha256": "b2d9c333416fcae5eb8fc962afaab5566ed8933c6cb75bec4052c77a0eb74fd6",
+      "snapshot_date": "2026-09-23T18:17:48.513413+00:00"
+    },
+    {
+      "document_id": "data-classification",
+      "title": "Data Classification Standard",
+      "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/data-classification-standard/",
+      "sha256": "90ecfde2b835152bb4a2862565e9bb577868ff26178a40670e0bc06423066a1c",
+      "snapshot_date": "2026-09-23T18:17:52.205818+00:00"
+    },
+    {
+      "document_id": "security-training",
+      "title": "Security Awareness Training Standard",
+      "source_url": "https://handbook.gitlab.com/handbook/security/security-assurance/governance/sec-training/",
+      "sha256": "d3af8eac2f65e6939b9f6d39dc5745661dd3bb6b56e8662980507a3633bda3ed",
+      "snapshot_date": "2026-09-23T18:17:56.740637+00:00"
+    },
+    {
+      "document_id": "physical-security",
+      "title": "Physical Security Standard for Company Assets",
+      "source_url": "https://handbook.gitlab.com/handbook/security/policies_and_standards/physical-security-standard-for-company-assets/",
+      "sha256": "d585aaadc3472d12c0d11f8868a992aab36636f694ab76645cc90d95ebbdb766",
+      "snapshot_date": "2026-09-23T18:18:00.341466+00:00"
+    },
+    {
+      "document_id": "travel-expenses",
+      "title": "Global Travel and Expense Policy",
+      "source_url": "https://handbook.gitlab.com/handbook/finance/expenses/",
+      "sha256": "819d92bf07782bf6496cfbf92405e03398ed8981efc20c0ad78ae9a39948f580",
+      "snapshot_date": "2026-09-23T18:18:03.845048+00:00"
+    },
+    {
+      "document_id": "anti-corruption",
+      "title": "Anti-Corruption Policy",
+      "source_url": "https://handbook.gitlab.com/handbook/legal/anti-corruption-policy/",
+      "sha256": "a4dd9298a8e78f00dc7b2dc658a00ac0fd5b7b3d5d12a9691d8ee7d4ab4f5b17",
+      "snapshot_date": "2026-09-23T18:18:08.147329+00:00"
+    },
+    {
+      "document_id": "anti-retaliation",
+      "title": "Anti-Retaliation Policy",
+      "source_url": "https://handbook.gitlab.com/handbook/legal/anti-retaliation-policy/",
+      "sha256": "83ec025573f6c171bddd041704418a86552e1295421532c8656c953b87703264",
+      "snapshot_date": "2026-09-23T18:18:12.237769+00:00"
+    },
+    {
+      "document_id": "gifts-contributions",
+      "title": "Policies Related to Gifts and Contributions",
+      "source_url": "https://handbook.gitlab.com/handbook/legal/policies/gifts-contributions/",
+      "sha256": "b5d2b5124fea9a62fca7e2cf4704bbdbe060b09ff3d0a35d76e19271cd7004c6",
+      "snapshot_date": "2026-09-23T18:18:16.218528+00:00"
+    },
+    {
+      "document_id": "ethics-compliance",
+      "title": "Ethics and Compliance Program",
+      "source_url": "https://handbook.gitlab.com/handbook/legal/ethics-compliance-program/",
+      "sha256": "9cd981b34512156109adc57b63d2333f6be0930a075facdccf7735f439a73088",
+      "snapshot_date": "2026-09-23T18:18:20.412579+00:00"
+    }
+  ]
+}
