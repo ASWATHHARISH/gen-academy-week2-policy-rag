@@ -28,6 +28,7 @@ def selected_files():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--name", default="enterprise-policy-rag-source.zip")
+    parser.add_argument("--include-demo", action="store_true", help="Include only the verified final MP4 and its two metadata records.")
     args = parser.parse_args()
     if Path(args.name).name != args.name or not args.name.endswith(".zip") or "/" in args.name or "\\" in args.name:
         raise ValueError("Archive name must be a simple ZIP filename inside artifacts.")
@@ -36,6 +37,13 @@ def main():
     if destination.exists():
         raise FileExistsError("Submission archive already exists; choose a new name instead of overwriting it.")
     files = list(selected_files())
+    if args.include_demo:
+        demo_files = [ROOT / "artifacts/demo/enterprise-policy-rag-demo.mp4",
+                      ROOT / "artifacts/demo/enterprise-policy-rag-demo/verification.json",
+                      ROOT / "artifacts/demo/enterprise-policy-rag-demo/storyboard.json"]
+        if not all(path.is_file() for path in demo_files):
+            raise FileNotFoundError("The verified final demo files are not ready.")
+        files.extend(demo_files)
     forbidden = {".env", "api_budget.json", "api_budget.json.lock"}
     assert all(path.name not in forbidden for path in files)
     sys.path.insert(0, str(ROOT))
